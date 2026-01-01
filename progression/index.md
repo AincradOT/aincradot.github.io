@@ -10,5 +10,5 @@ expanded: false
 Discover the unique gameplay systems and features that set this server apart from other Tibia servers.
 
 [!ref icon="shield" text="Item crafting"](crafting.md)
-[!ref icon="skull" text="Uber Monsters"](uber-monsters.md)
-[!ref icon="gem" text="Reward Orbs"](reward-orbs.md)
+[!ref icon="alert" text="Uber Monsters"](uber-monsters.md)
+[!ref icon="gift" text="Reward Orbs"](reward-orbs.md)

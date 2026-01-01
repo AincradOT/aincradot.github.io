@@ -1,6 +1,6 @@
 ---
 label: Uber Monsters
-icon: skull
+icon: alert
 order: 76
 ---
 

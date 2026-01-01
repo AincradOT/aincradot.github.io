@@ -1,6 +1,6 @@
 ---
 label: Reward Orbs
-icon: gem
+icon: gift
 order: 77
 ---
 

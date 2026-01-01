@@ -18,7 +18,7 @@ Aincrad is an anime-inspired progression MMO set within **the labyrinth**—a my
 
 ### Aincrad Lore
 
-[!ref icon="book" text="Aincrad Lore & History"](aincrad-lore/index.md)
+[!ref icon="book" text="Aincrad Lore & History"](lore/index.md)
 Discover the labyrinth—a mysterious vertical realm of ever-changing Levels. Learn about Pathfinders, guilds, Plazas, Wardens, and the seasonal Shift that reshapes the realm.
 
 ### Getting Started
