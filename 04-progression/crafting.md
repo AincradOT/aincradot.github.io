@@ -18,8 +18,6 @@ Every eligible equipment item can have:
 
 This guide explains what these mean, how they work, and how crafting currencies interact with them.
 
----
-
 ## 1) Eligibility
 
 Not every item can roll these properties.
@@ -41,8 +39,6 @@ Not every item can roll these properties.
 !!! info "Eligibility Note"
 If an item is not eligible, it simply won't gain these properties.
 !!!
-
----
 
 ## 2) Quality (0–20)
 
@@ -98,8 +94,6 @@ Quality scaling always moves values in the "stronger" direction:
 
 * Base `-5` with Quality 20% → `-4` (not `-6`)
 
----
-
 ## 3) Rarity and Modifier Capacity
 
 Rarity is primarily a **modifier capacity tier**.
@@ -116,8 +110,6 @@ Rarity is primarily a **modifier capacity tier**.
 !!! tip "Key Rule"
 You can't have more modifiers than your rarity allows.
 !!!
-
----
 
 ## 4) Modifiers
 
@@ -146,8 +138,6 @@ These scale an existing base.
 Percent modifiers scale a base that includes the item's *native/base contribution* (not only "other modifiers").
 !!!
 
----
-
 ## 5) Damage Sources: Attacks vs Spells
 
 Modifiers can apply differently depending on whether the damage comes from an **Attack** or a **Spell**.
@@ -167,8 +157,6 @@ A **Spell** is something you cast, like:
 * `exori`
 * `exori hur`
 * rune-like spell effects (if treated as spells)
-
----
 
 ## 6) Elemental components and "creating" damage types
 
@@ -196,8 +184,6 @@ If a modifier says it adds an element, and the hit does **not** already have tha
 
 * `+10% fire damage` applies to **fire damage from attacks and spells**.
 
----
-
 ## 7) Modifier wording examples (fire)
 
 ### `+10 fire attack damage`
@@ -224,8 +210,6 @@ Result: **physical base** + **new fire component**
   * attack fire components
   * spell fire components
 * Scales the total fire base (native + flat adds).
-
----
 
 ## 8) Crafting currencies (what they do)
 
@@ -256,8 +240,6 @@ You can only change Quality/Rarity/Modifiers while the item is **NOT equipped**.
 Exact drop rates and some rule details are server-tuned.
 !!!
 
----
-
 ## 9) Rules and safeguards
 
 ### "No mutation while equipped"
@@ -272,8 +254,6 @@ Quality, rarity, and modifier changes are blocked if the item is in a real equip
 * **Quality** scales base stats.
 * **Modifiers** add or scale extra effects.
 * Quality does **not** multiply modifier values.
-
----
 
 ## 10) Quick examples
 

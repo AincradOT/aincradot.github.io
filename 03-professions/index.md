@@ -28,7 +28,7 @@ Each vocation has unique strengths, weaknesses, and specializations. Your choice
 | **[Druid](druid.md)**  | Support/Healer | Ice/Earth      | Healing, support spells, utility   |
 
 !!! tip "Vocation Selection"
-Choose your vocation carefully at level 30. While you can create multiple characters, each vocation offers a unique gameplay experience. Knights excel in close combat, Paladins are versatile ranged fighters, Sorcerers deal massive magic damage, and Druids provide essential support and healing.
+Choose your vocation carefully when creating your character. While you can create multiple characters, each vocation offers a unique gameplay experience. Knights excel in close combat, Paladins are versatile ranged fighters, Sorcerers deal massive magic damage, and Druids provide essential support and healing.
 !!!
 
 ## Quick Overview
@@ -59,11 +59,21 @@ The support vocation specializing in healing, utility spells, and nature-based m
 
 ## Choosing Your Vocation
 
-At level 30, you'll be prompted to choose your vocation. This is a permanent choice for that character, so consider:
+You choose your vocation when creating your character. This is a permanent choice for that character, so consider:
 
 1. **Playstyle preference** - Do you prefer melee, ranged, or magic?
 2. **Role preference** - Do you want to tank, deal damage, or support?
 3. **Group composition** - What does your team need?
+
+## Level 30 Milestone
+
+Upon reaching level 30, you'll receive:
+* A **vocation-specific key** that unlocks access to your first floor boss
+* **Directions** to locate the first floor boss
+
+!!! warning "First Floor Boss Caution"
+The first floor boss is a powerful enemy. Make sure you're well-equipped and consider forming a party before attempting to fight it. Preparation is key to success.
+!!!
 
 !!! note "Multiple Characters"
 You can create multiple characters with different vocations to experience all playstyles. Each character progresses independently.

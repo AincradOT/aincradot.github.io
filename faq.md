@@ -24,7 +24,11 @@ Visit the [Getting Started](01-getting-started/installation.md) section for comp
 
 ### How do I choose my vocation?
 
-At level 30, you'll be prompted to choose your vocation: Knight, Paladin, Sorcerer, or Druid. This choice is permanent for that character, so choose based on your preferred playstyle.
+You choose your vocation when creating your character: Knight, Paladin, Sorcerer, or Druid. This choice is permanent for that character, so choose based on your preferred playstyle.
+
+### What happens at level 30?
+
+At level 30, you'll receive a vocation-specific key and directions to the first floor boss. **Be cautious** - floor bosses are powerful and often require a party to defeat. Make sure you're well-prepared before attempting the boss.
 
 ### What is the Gear Score system?
 

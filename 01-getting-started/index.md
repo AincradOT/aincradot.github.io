@@ -16,12 +16,17 @@ Welcome to Aincrad RPG! This section will guide you through everything you need 
 ## Quick Start Checklist
 
 - [ ] Create a new account
-- [ ] Create your first character
+- [ ] Create your first character (choose your vocation: Knight, Paladin, Sorcerer, or Druid)
 - [ ] Download and install the Aincrad client
-- [ ] Todo
+- [ ] Explore the first floor and complete tutorial quests
+- [ ] Reach level 30 to receive your vocation-specific key and directions to the first floor boss
 
 !!! tip "New Player Tip"
-Focus on completing the tutorial quests on Kindernia Island. These will give you essential equipment and teach you the game basics before you choose your vocation at level 30.
+Focus on completing the tutorial quests in the starting area. These will give you essential equipment and teach you the game basics.
+!!!
+
+!!! warning "Level 30 - First Floor Boss"
+Upon reaching level 30, you'll receive a vocation-specific key and directions to the first floor boss. **Proceed with caution** - floor bosses are powerful enemies that require preparation and often a party to defeat. Make sure you're well-equipped and ready before attempting the boss.
 !!!
 
 ## Video Guide
