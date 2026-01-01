@@ -13,7 +13,7 @@ Welcome to Aincrad RPG! This section will guide you through everything you need 
 
 Download the latest Aincrad launcher to get started:
 
-[!button variant="primary" icon="download" text="Download Launcher"](https://sword-art.online/download)
+[!button variant="primary" icon="download" text="Download Launcher"](https://github.com/AincradOT/aincrad-launcher/releases/latest/download/Aincrad-Installer.exe)
 
 ## Quick Start Checklist
 
@@ -30,7 +30,3 @@ Focus on completing the tutorial quests in the starting area. These will give yo
 !!!danger Level 20 - First Floor Boss
 Upon reaching level 20, you'll receive a vocation-specific starter kit (including item upgrades and a promotion) and directions to the first floor boss. **Proceed with caution** - floor bosses are powerful enemies that require preparation and often a party to defeat. Make sure you're well-equipped and ready before attempting the boss.
 !!!
-
-## Video Guide
-
-<!-- Video guide coming soon -->

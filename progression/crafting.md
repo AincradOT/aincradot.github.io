@@ -18,36 +18,41 @@ Every eligible equipment item can have:
 
 This guide explains what these mean, how they work, and how crafting currencies interact with them.
 
-## 1) Eligibility
+---
+
+## Eligibility
 
 Not every item can roll these properties.
 
-**Eligible (typical examples):**
+**Eligible items:**
 
 * Weapons (swords/axes/clubs/wands, etc.)
 * Armor pieces
 * Helmets/boots/legs/shields
 * Rings/amulets (when supported)
 
-**Not eligible (typical examples):**
+**Not eligible:**
 
 * Stackable items (e.g., runes, many consumables)
 * "Charged" or special-use items
 * Containers
 * Ammo (excluded from quality scaling and usually excluded from properties)
 
-!!!info Eligibility Note
+!!!info Eligibility
 If an item is not eligible, it simply won't gain these properties.
 !!!
 
-## 2) Quality (0–20)
+---
+
+## Quality (0–20)
 
 **Quality increases an item's base stats by a percentage.**
+
 It does **not** change the item's modifiers. Quality only scales what the item already "is" underneath.
 
-### What "base stats" includes
+### Base Stats
 
-Depending on the item type, Quality can scale things like:
+Depending on the item type, Quality can scale:
 
 * Weapon **Attack** (physical and the native elemental portion)
 * **Defense** and **extra defense**
@@ -58,45 +63,43 @@ Depending on the item type, Quality can scale things like:
 * Stat/skill bonuses
 * Regen gain amounts
 
-### Example (weapon)
+### Example: Serpent Sword
 
-A Serpent Sword normally shows:
+**Base stats (Quality 0):**
 
 ```
 You see a serpent sword (Atk:18 physical + 8 earth, Def:15 +1).
-Quality: 0
 ```
 
-At **Quality 20** (20%):
+**At Quality 20 (20% increase):**
 
 * Physical: 18 → 22
 * Earth: 8 → 10
 * Def: 15 → 18
 * ExtraDef: +1 stays +1 (scaled independently, rounding applies)
 
-So you'd see:
+**Result:**
 
 ```
 You see a serpent sword (Atk:22 physical + 10 earth, Def:18 +1).
-Quality: 20
 ```
 
-### Rounding rule (important)
+### Rounding Rule
 
-!!!danger Important Rounding Rule
+!!!danger Important
 Quality scaling always moves values in the "stronger" direction:
 
-* **Positive values** increase using half-up rounding.
-* **Negative values** move **toward 0** (less negative), never further away.
+* **Positive values** increase using half-up rounding
+* **Negative values** move **toward 0** (less negative), never further away
 !!!
 
-**Example:**
+**Example:** Base `-5` with Quality 20% → `-4` (not `-6`)
 
-* Base `-5` with Quality 20% → `-4` (not `-6`)
+---
 
-## 3) Rarity and Modifier Capacity
+## Rarity and Modifier Capacity
 
-Rarity is primarily a **modifier capacity tier**.
+Rarity determines how many modifiers an item can have.
 
 | Rarity        | Modifier Capacity |
 | ------------- | ----------------: |
@@ -111,13 +114,15 @@ Rarity is primarily a **modifier capacity tier**.
 You can't have more modifiers than your rarity allows.
 !!!
 
-## 4) Modifiers
+---
 
-Modifiers are extra properties on top of the base item. They come in two main shapes:
+## Modifiers
 
-### A) Flat modifiers
+Modifiers are extra properties on top of the base item. They come in two types:
 
-These add a fixed amount.
+### Flat Modifiers
+
+Add a fixed amount to stats.
 
 **Examples:**
 
@@ -125,104 +130,112 @@ These add a fixed amount.
 * `+10 fire spell damage`
 * `+25 max health`
 
-### B) Percent modifiers
+### Percent Modifiers
 
-These scale an existing base.
+Scale an existing base value.
 
 **Examples:**
 
 * `+10% fire damage`
 * `+12% physical damage`
 
-!!!note Percent Modifier Behavior
+!!!note Behavior
 Percent modifiers scale a base that includes the item's *native/base contribution* (not only "other modifiers").
 !!!
 
-## 5) Damage Sources: Attacks vs Spells
+---
+
+## Damage Sources: Attacks vs Spells
 
 Modifiers can apply differently depending on whether the damage comes from an **Attack** or a **Spell**.
 
-### What counts as an Attack?
+### Attacks
 
 An **Attack** is a weapon-driven hit:
 
-* sword/axe/club melee swings
-* wand hits (their on-hit element is still an "attack source")
-* distance attacks (when supported)
+* Sword/axe/club melee swings
+* Wand hits (their on-hit element is still an "attack source")
+* Distance attacks (when supported)
 
-### What counts as a Spell?
+### Spells
 
-A **Spell** is something you cast, like:
+A **Spell** is something you cast:
 
 * `exori`
 * `exori hur`
-* rune-like spell effects (if treated as spells)
+* Rune-like spell effects (if treated as spells)
 
-## 6) Elemental components and "creating" damage types
+---
+
+## Elemental Components
 
 A hit can have multiple elemental components (physical, fire, ice, energy, etc.).
 
-### Flat elemental adds can create a component
+### Creating Damage Types
 
-If a modifier says it adds an element, and the hit does **not** already have that element component:
+If a modifier adds an element, and the hit does **not** already have that element component:
 
 * The element component is **created**, **as long as the modifier matches the hit's source type** (attack vs spell).
 
-**Example:**
+**Example 1:**
 
 * `+10 fire attack damage` on a pure physical sword hit:
-  * creates a **fire component** and adds **+10 fire** to it
+  * Creates a **fire component** and adds **+10 fire** to it
 
-**Example:**
+**Example 2:**
 
 * A wand that normally deals **energy** (attack source)
 * Add `+10 fire attack damage`
-  * the hit keeps its **energy** component
-  * and gains a new **fire** component (+10)
+  * The hit keeps its **energy** component
+  * And gains a new **fire** component (+10)
 
-### Percent elemental modifiers apply to both sources (unless stated otherwise)
+### Percent Modifiers
 
 * `+10% fire damage` applies to **fire damage from attacks and spells**.
 
-## 7) Modifier wording examples (fire)
+---
+
+## Modifier Examples (Fire)
 
 ### `+10 fire attack damage`
 
-* Applies only to **attack hits** (weapon-based hits).
-* Adds +10 to the hit's **fire** component.
-* If the hit has no fire component, it **creates one**.
+* Applies only to **attack hits** (weapon-based hits)
+* Adds +10 to the hit's **fire** component
+* If the hit has no fire component, it **creates one**
 
 **Example:** Wand of Vortex (base energy hit)
-Result: **energy base** + **new fire component**
+**Result:** **energy base** + **new fire component**
 
 ### `+10 fire spell damage`
 
-* Applies only to **spell hits** (casted spells).
-* Adds +10 to the spell's **fire** component.
-* If the spell has no fire component, it **creates one**.
+* Applies only to **spell hits** (casted spells)
+* Adds +10 to the spell's **fire** component
+* If the spell has no fire component, it **creates one**
 
 **Example:** `exori hur` that normally deals physical
-Result: **physical base** + **new fire component**
+**Result:** **physical base** + **new fire component**
 
 ### `+10% fire damage`
 
 * Applies to **all fire damage**, regardless of source:
-  * attack fire components
-  * spell fire components
-* Scales the total fire base (native + flat adds).
+  * Attack fire components
+  * Spell fire components
+* Scales the total fire base (native + flat adds)
 
-## 8) Crafting currencies (what they do)
+---
+
+## Crafting Currencies
 
 These currencies mutate **rarity**, **modifiers**, and **quality** (when allowed by item eligibility).
 
-!!!danger Important Restriction
+!!!danger Important
 You can only change Quality/Rarity/Modifiers while the item is **NOT equipped**.
 !!!
 
-### Currency catalogue
+### Currency Catalogue
 
-| Currency                 | Typical outcome                                                   |
-| ------------------------ | ----------------------------------------------------------------- |
+| Currency                 | Effect                                                           |
+| ------------------------ | ---------------------------------------------------------------- |
 | **Orb of Transmutation** | Normal → Magic (rolls up to Magic capacity)                       |
 | **Orb of Alteration**    | Rerolls modifiers (within current rarity capacity)                |
 | **Orb of Augmentation**  | Adds 1 new modifier (if capacity allows)                          |
@@ -240,36 +253,40 @@ You can only change Quality/Rarity/Modifiers while the item is **NOT equipped**.
 Exact drop rates and some rule details are server-tuned.
 !!!
 
-## 9) Rules and safeguards
+---
 
-### "No mutation while equipped"
+## Rules and Safeguards
+
+### No Mutation While Equipped
 
 Quality, rarity, and modifier changes are blocked if the item is in a real equipment slot.
 
-* If it's equipped: the currency/action **fails**.
-* Unequip it first, then try again.
+* If it's equipped: the currency/action **fails**
+* Unequip it first, then try again
 
-### Quality and Modifiers are independent
+### Quality and Modifiers Are Independent
 
-* **Quality** scales base stats.
-* **Modifiers** add or scale extra effects.
-* Quality does **not** multiply modifier values.
+* **Quality** scales base stats
+* **Modifiers** add or scale extra effects
+* Quality does **not** multiply modifier values
 
-## 10) Quick examples
+---
 
-### Example A: Quality scaling (Serpent Sword)
+## Quick Examples
 
+### Example A: Quality Scaling
+
+**Serpent Sword:**
 * Base: `Atk:18 physical + 8 earth`
 * Quality 20 → `Atk:22 physical + 10 earth`
 
-### Example B: Element creation (attack)
+### Example B: Element Creation
 
-A physical sword hit with `+10 fire attack damage`:
-
+**Physical sword hit with `+10 fire attack damage`:**
 * Physical remains
 * Fire component is created: `+10 fire`
 
-### Example C: Spell vs attack
+### Example C: Spell vs Attack
 
 * `+10 fire spell damage` affects `exori` casts, not sword swings
 * `+10 fire attack damage` affects sword swings, not `exori`
