@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.11.0.820563906223">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.11.0.820575852663">
 
     <!-- See retype.com -->
     <meta name="generator" content="Retype 3.11.0">
@@ -30,11 +30,11 @@
 
     <script data-cfasync="false">(function(){var cl=document.documentElement.classList,ls=localStorage.getItem("retype_scheme"),hd=cl.contains("dark"),hl=cl.contains("light"),wm=window.matchMedia&&window.matchMedia("(prefers-color-scheme: dark)").matches;if(ls==="dark"||(!ls&&wm&&!hd&&!hl)){cl.remove("light");cl.add("dark")}else if(ls==="light"||(!ls&&!wm&&!hd&&!hl)){cl.remove("dark");cl.add("light")}})();</script>
 
-    <link href="../../resources/css/retype.css?v=3.11.0.820563906223" rel="stylesheet">
+    <link href="../../resources/css/retype.css?v=3.11.0.820575852663" rel="stylesheet">
 
-    <script data-cfasync="false" src="../../resources/js/config.js?v=3.11.0.820563906223" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="../../resources/js/config.js?v=3.11.0.820575852663" data-turbo-eval="false" defer></script>
     <script data-cfasync="false" src="../../resources/js/retype.js?v=3.11.0" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" data-cfasync="false" src="../../resources/js/lunr.js?v=3.11.0.820563906223" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" data-cfasync="false" src="../../resources/js/lunr.js?v=3.11.0.820575852663" data-turbo-eval="false" defer></script>
 </head>
 <body>
     <div id="retype-app" class="relative text-base antialiased text-base-text bg-base-bg font-body">
@@ -164,7 +164,7 @@
 <p>Every eligible equipment item can have:</p>
 <ul>
 <li><strong>Quality</strong> (0–20): scales the item&#x27;s <em>base</em> stats</li>
-<li><strong>Rarity</strong> (Normal → Legendary): controls <strong>modifier capacity</strong></li>
+<li><strong>Rarity</strong> (Normal → Legendary): determined by the <strong>number of modifiers</strong> on the item</li>
 <li><strong>Modifiers</strong>: extra stats that change how your <strong>attacks</strong> and <strong>spells</strong> behave</li>
 </ul>
 <p>This guide explains what these mean, how they work, and how crafting currencies interact with them.</p>
@@ -283,45 +283,45 @@
 </div>
 <p><strong>Example:</strong> Base <code v-pre>-5</code> with Quality 20% → <code v-pre>-4</code> (not <code v-pre>-6</code>)</p>
 <hr>
-<doc-anchor-target id="rarity-and-modifier-capacity">
+<doc-anchor-target id="rarity-and-modifiers">
     <h2>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#rarity-and-modifier-capacity">#</doc-anchor-trigger>
-        <span>Rarity and Modifier Capacity</span>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#rarity-and-modifiers">#</doc-anchor-trigger>
+        <span>Rarity and Modifiers</span>
     </h2>
 </doc-anchor-target>
-<p>Rarity determines how many modifiers an item can have.</p>
+<p><strong>Rarity is determined by the number of modifiers on an item.</strong></p>
 <div class="table-wrapper scrollbar overflow-hidden">
 <table class="comfortable">
 <thead>
 <tr>
+<th>Modifier Count</th>
 <th>Rarity</th>
-<th style="text-align: right;">Modifier Capacity</th>
 </tr>
 </thead>
 <tbody>
 <tr>
+<td>0</td>
 <td><strong>Normal</strong></td>
-<td style="text-align: right;">0</td>
 </tr>
 <tr>
+<td>1</td>
 <td><strong>Uncommon</strong></td>
-<td style="text-align: right;">1</td>
 </tr>
 <tr>
+<td>2</td>
 <td><strong>Magic</strong></td>
-<td style="text-align: right;">2</td>
 </tr>
 <tr>
+<td>3</td>
 <td><strong>Rare</strong></td>
-<td style="text-align: right;">3</td>
 </tr>
 <tr>
+<td>4</td>
 <td><strong>Epic</strong></td>
-<td style="text-align: right;">4</td>
 </tr>
 <tr>
+<td>5</td>
 <td><strong>Legendary</strong></td>
-<td style="text-align: right;">5</td>
 </tr>
 </tbody>
 </table>
@@ -338,7 +338,7 @@
         </div>
         <div class="pr-5 ml-3 w-full">
             <h5>Key Rule</h5>
-<p>You can&#x27;t have more modifiers than your rarity allows.</p>
+<p>When you add or remove modifiers, the item&#x27;s rarity automatically updates to match the new modifier count.</p>
         </div>
     </div>
 </div>
@@ -691,7 +691,7 @@
 </tr>
 <tr>
 <td><strong>Alteration</strong></td>
-<td>Rerolls all mods, keeps rarity</td>
+<td>Rerolls all mods, count can be 1 or 2</td>
 <td>Uncommon/Magic only</td>
 <td>Reroll bad mods</td>
 </tr>
@@ -727,7 +727,7 @@
 </tr>
 <tr>
 <td><strong>Chaos</strong></td>
-<td>Rerolls mods and rarity, can upgrade</td>
+<td>Rerolls mods (count may change)</td>
 <td>3+ mods (Rare+)</td>
 <td>Reroll everything</td>
 </tr>
@@ -739,9 +739,9 @@
 </tr>
 <tr>
 <td><strong>Exalted</strong></td>
-<td>+1 mod if capacity allows</td>
-<td>Rare/Epic with open slots</td>
-<td>Fill remaining slots</td>
+<td>+1 mod (up to max 5)</td>
+<td>Rare/Epic with &lt; 5 mods</td>
+<td>Add more modifiers</td>
 </tr>
 <tr>
 <td><strong>Divination</strong></td>
