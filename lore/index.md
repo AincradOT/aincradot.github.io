@@ -5,9 +5,9 @@ order: 100
 expanded: false
 ---
 
-# Aincrad Lore & History
+# Lore & History
 
-Aincrad is an anime-inspired progression MMO set within **the tower**—a mysterious vertical labyrinth of ever-changing levels. Players form guilds of Pathfinders, regroup and trade in Plazas, and challenge each Level's Warden to unlock the next rise.
+Aincrad is a progression MMO set within **the tower**—a mysterious vertical labyrinth of ever-changing levels. Players form guilds of Pathfinders, regroup and trade in Plazas, and challenge each Level's Warden to unlock the next rise.
 
 ## The Tower
 

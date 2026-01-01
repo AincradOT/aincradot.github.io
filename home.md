@@ -6,19 +6,19 @@ order: 110
 
 # Aincrad Wiki
 
-Welcome to the official Aincrad anime-inspired progression MMO Wiki! This community-created resource aims to help new and existing players navigate the rich world of Aincrad.
+Welcome to the official Aincrad progression MMO Wiki! This community-created resource aims to help new and existing players navigate the rich world of Aincrad.
 
 ## What is Aincrad?
 
 [!badge variant="primary" text="MMORPG"] [!badge variant="success" text="Closed Beta"]
 
-Aincrad is an anime-inspired progression MMO set within **the tower** — a mysterious vertical labirynth of ever-changing levels. Players form guilds of Pathfinders, regroup and trade in Plazas, and challenge each Level's Warden to unlock the next rise. Every season begins with the shift—a seasonal update that introduces new levels, wardens, mechanics, and content as the labyrinth reconfigures.
+Aincrad is a progression MMO set within **the tower** — a mysterious vertical labirynth of ever-changing levels. Players form guilds of Pathfinders, regroup and trade in Plazas, and challenge each Level's Warden to unlock the next rise. Every season begins with the shift—a seasonal update that introduces new levels, wardens, mechanics, and content as the labyrinth reconfigures.
 
 ## Explore Aincrad
 
-### Aincrad Lore
+### Lore
 
-[!ref icon="book" text="Aincrad Lore & History"](lore/index.md)
+[!ref icon="book" text="Lore & History"](lore/index.md)
 Discover the labyrinth—a mysterious vertical realm of ever-changing Levels. Learn about Pathfinders, guilds, Plazas, Wardens, and the seasonal Shift that reshapes the realm.
 
 ### Getting Started
