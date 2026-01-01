@@ -272,20 +272,20 @@ You can only change Quality/Rarity/Modifiers while the item is **NOT equipped**.
 
 ### Currency Catalogue
 
-| Currency                 | Effect                                                      | Restrictions                    | Use Case                                    |
-| ------------------------ | ----------------------------------------------------------- | ------------------------------- | ------------------------------------------- |
-| **Orb of Quality**       | Increases Quality by 1 (max 20). Scales base stats only.     | Eligible items, Quality < 20   | Improve base stats on good items             |
-| **Orb of Transmutation** | Normal → Uncommon or Magic (random). Grants 1-2 modifiers.  | Normal items only               | Upgrade white items to get modifiers        |
-| **Orb of Alteration**    | Rerolls all modifiers. Keeps same rarity.                   | Uncommon or Magic only          | Reroll bad modifiers on Magic items         |
-| **Orb of Augmentation**  | Adds 1 modifier to Magic item.                              | Magic with 1 modifier only      | Add second modifier to Magic items          |
-| **Orb of Chance**        | Normal → random tier (Uncommon → Legendary).                | Normal items only               | Gamble for high-tier items                  |
-| **Orb of Scouring**      | Removes all modifiers, resets to Normal.                    | Any item                        | Start fresh on bad items                    |
-| **Orb of Regal**         | Magic → Rare. Adds +1 modifier, keeps existing.             | Magic items only                | Upgrade to Rare without losing modifiers    |
-| **Orb of Alchemy**       | Normal → Rare. Rolls up to 3 modifiers.                    | Normal items only               | Fast path to Rare tier                      |
-| **Orb of Chaos**         | Rerolls all modifiers and rarity. Can upgrade tier.         | Items with 3+ modifiers (Rare+) | Reroll everything, chance to upgrade       |
-| **Orb of Annulment**     | Removes 1 random modifier.                                 | Items with modifiers            | Remove bad modifiers before adding new ones |
-| **Orb of Exalted**       | Adds 1 modifier if capacity allows.                        | Rare/Epic with open slots      | Fill remaining modifier slots              |
-| **Divine Orb**           | Rerolls modifier values only. Keeps modifier types.         | Items with modifiers            | Improve values on good modifier types       |
+| Currency         | Effect                                    | Restrictions              | Use Case                          |
+| ---------------- | ----------------------------------------- | ------------------------- | --------------------------------- |
+| **Quality**      | +1 Quality (max 20), scales base stats    | Eligible, Quality < 20   | Improve base stats                |
+| **Transmutation** | Normal → Uncommon/Magic, 1-2 mods        | Normal only               | Upgrade white items               |
+| **Alteration**   | Rerolls all mods, keeps rarity            | Uncommon/Magic only       | Reroll bad mods                   |
+| **Augmentation** | +1 mod to Magic                            | Magic with 1 mod only     | Add second mod to Magic           |
+| **Chance**       | Normal → random tier                      | Normal only               | Gamble for high tiers             |
+| **Scouring**     | Removes all mods, resets to Normal        | Any item                  | Start fresh                       |
+| **Regal**        | Magic → Rare, +1 mod, keeps existing       | Magic only                | Upgrade to Rare                   |
+| **Alchemy**      | Normal → Rare, 3 mods                     | Normal only               | Fast path to Rare                 |
+| **Chaos**        | Rerolls mods and rarity, can upgrade      | 3+ mods (Rare+)           | Reroll everything                 |
+| **Annulment**    | Removes 1 random mod                       | Items with mods           | Remove bad mods                   |
+| **Exalted**      | +1 mod if capacity allows                 | Rare/Epic with open slots | Fill remaining slots              |
+| **Divination**   | Rerolls mod values, keeps mod types        | Items with mods           | Improve values on good mods       |
 
 !!!info Server Tuning
 Exact drop rates and some rule details are server-tuned.
