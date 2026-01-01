@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.11.0.820558219054">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.11.0.820558424087">
 
     <!-- See retype.com -->
     <meta name="generator" content="Retype 3.11.0">
@@ -30,11 +30,11 @@
 
     <script data-cfasync="false">(function(){var cl=document.documentElement.classList,ls=localStorage.getItem("retype_scheme"),hd=cl.contains("dark"),hl=cl.contains("light"),wm=window.matchMedia&&window.matchMedia("(prefers-color-scheme: dark)").matches;if(ls==="dark"||(!ls&&wm&&!hd&&!hl)){cl.remove("light");cl.add("dark")}else if(ls==="light"||(!ls&&!wm&&!hd&&!hl)){cl.remove("dark");cl.add("light")}})();</script>
 
-    <link href="../../resources/css/retype.css?v=3.11.0.820558219054" rel="stylesheet">
+    <link href="../../resources/css/retype.css?v=3.11.0.820558424087" rel="stylesheet">
 
-    <script data-cfasync="false" src="../../resources/js/config.js?v=3.11.0.820558219054" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="../../resources/js/config.js?v=3.11.0.820558424087" data-turbo-eval="false" defer></script>
     <script data-cfasync="false" src="../../resources/js/retype.js?v=3.11.0" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" data-cfasync="false" src="../../resources/js/lunr.js?v=3.11.0.820558219054" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" data-cfasync="false" src="../../resources/js/lunr.js?v=3.11.0.820558424087" data-turbo-eval="false" defer></script>
 </head>
 <body>
     <div id="retype-app" class="relative text-base antialiased text-base-text bg-base-bg font-body">
@@ -182,21 +182,22 @@
 <li><strong>Modifiers</strong>: extra stats that change how your <strong>attacks</strong> and <strong>spells</strong> behave</li>
 </ul>
 <p>This guide explains what these mean, how they work, and how crafting currencies interact with them.</p>
-<doc-anchor-target id="1-eligibility">
+<hr>
+<doc-anchor-target id="eligibility">
     <h2>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#1-eligibility">#</doc-anchor-trigger>
-        <span>1) Eligibility</span>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#eligibility">#</doc-anchor-trigger>
+        <span>Eligibility</span>
     </h2>
 </doc-anchor-target>
 <p>Not every item can roll these properties.</p>
-<p><strong>Eligible (typical examples):</strong></p>
+<p><strong>Eligible items:</strong></p>
 <ul>
 <li>Weapons (swords/axes/clubs/wands, etc.)</li>
 <li>Armor pieces</li>
 <li>Helmets/boots/legs/shields</li>
 <li>Rings/amulets (when supported)</li>
 </ul>
-<p><strong>Not eligible (typical examples):</strong></p>
+<p><strong>Not eligible:</strong></p>
 <ul>
 <li>Stackable items (e.g., runes, many consumables)</li>
 <li>&quot;Charged&quot; or special-use items</li>
@@ -216,26 +217,27 @@
             </svg>
         </div>
         <div class="pr-5 ml-3 w-full">
-            <h5>Eligibility Note</h5>
+            <h5>Eligibility</h5>
 <p>If an item is not eligible, it simply won&#x27;t gain these properties.</p>
         </div>
     </div>
 </div>
-<doc-anchor-target id="2-quality-020">
+<hr>
+<doc-anchor-target id="quality-020">
     <h2>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#2-quality-020">#</doc-anchor-trigger>
-        <span>2) Quality (0–20)</span>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#quality-020">#</doc-anchor-trigger>
+        <span>Quality (0–20)</span>
     </h2>
 </doc-anchor-target>
-<p><strong>Quality increases an item&#x27;s base stats by a percentage.</strong>
-It does <strong>not</strong> change the item&#x27;s modifiers. Quality only scales what the item already &quot;is&quot; underneath.</p>
-<doc-anchor-target id="what-base-stats-includes">
+<p><strong>Quality increases an item&#x27;s base stats by a percentage.</strong></p>
+<p>It does <strong>not</strong> change the item&#x27;s modifiers. Quality only scales what the item already &quot;is&quot; underneath.</p>
+<doc-anchor-target id="base-stats">
     <h3>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#what-base-stats-includes">#</doc-anchor-trigger>
-        <span>What &quot;base stats&quot; includes</span>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#base-stats">#</doc-anchor-trigger>
+        <span>Base Stats</span>
     </h3>
 </doc-anchor-target>
-<p>Depending on the item type, Quality can scale things like:</p>
+<p>Depending on the item type, Quality can scale:</p>
 <ul>
 <li>Weapon <strong>Attack</strong> (physical and the native elemental portion)</li>
 <li><strong>Defense</strong> and <strong>extra defense</strong></li>
@@ -246,33 +248,31 @@ It does <strong>not</strong> change the item&#x27;s modifiers. Quality only scal
 <li>Stat/skill bonuses</li>
 <li>Regen gain amounts</li>
 </ul>
-<doc-anchor-target id="example-weapon">
+<doc-anchor-target id="example-serpent-sword">
     <h3>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#example-weapon">#</doc-anchor-trigger>
-        <span>Example (weapon)</span>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#example-serpent-sword">#</doc-anchor-trigger>
+        <span>Example: Serpent Sword</span>
     </h3>
 </doc-anchor-target>
-<p>A Serpent Sword normally shows:</p>
+<p><strong>Base stats (Quality 0):</strong></p>
 <div class="codeblock-wrapper"><doc-codeblock>
-<pre translate="no" class="language-none"><code v-pre class="language-none">You see a serpent sword (Atk:18 physical + 8 earth, Def:15 +1).
-Quality: 0</code></pre>
+<pre translate="no" class="language-none"><code v-pre class="language-none">You see a serpent sword (Atk:18 physical + 8 earth, Def:15 +1).</code></pre>
 </doc-codeblock></div>
-<p>At <strong>Quality 20</strong> (20%):</p>
+<p><strong>At Quality 20 (20% increase):</strong></p>
 <ul>
 <li>Physical: 18 → 22</li>
 <li>Earth: 8 → 10</li>
 <li>Def: 15 → 18</li>
 <li>ExtraDef: +1 stays +1 (scaled independently, rounding applies)</li>
 </ul>
-<p>So you&#x27;d see:</p>
+<p><strong>Result:</strong></p>
 <div class="codeblock-wrapper"><doc-codeblock>
-<pre translate="no" class="language-none"><code v-pre class="language-none">You see a serpent sword (Atk:22 physical + 10 earth, Def:18 +1).
-Quality: 20</code></pre>
+<pre translate="no" class="language-none"><code v-pre class="language-none">You see a serpent sword (Atk:22 physical + 10 earth, Def:18 +1).</code></pre>
 </doc-codeblock></div>
-<doc-anchor-target id="rounding-rule-important">
+<doc-anchor-target id="rounding-rule">
     <h3>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#rounding-rule-important">#</doc-anchor-trigger>
-        <span>Rounding rule (important)</span>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#rounding-rule">#</doc-anchor-trigger>
+        <span>Rounding Rule</span>
     </h3>
 </doc-anchor-target>
 <div class="flex mb-6">
@@ -287,26 +287,24 @@ Quality: 20</code></pre>
             </svg>
         </div>
         <div class="pr-5 ml-3 w-full">
-            <h5>Important Rounding Rule</h5>
+            <h5>Important</h5>
 <p>Quality scaling always moves values in the &quot;stronger&quot; direction:</p>
 <ul>
-<li><strong>Positive values</strong> increase using half-up rounding.</li>
-<li><strong>Negative values</strong> move <strong>toward 0</strong> (less negative), never further away.</li>
+<li><strong>Positive values</strong> increase using half-up rounding</li>
+<li><strong>Negative values</strong> move <strong>toward 0</strong> (less negative), never further away</li>
 </ul>
         </div>
     </div>
 </div>
-<p><strong>Example:</strong></p>
-<ul>
-<li>Base <code v-pre>-5</code> with Quality 20% → <code v-pre>-4</code> (not <code v-pre>-6</code>)</li>
-</ul>
-<doc-anchor-target id="3-rarity-and-modifier-capacity">
+<p><strong>Example:</strong> Base <code v-pre>-5</code> with Quality 20% → <code v-pre>-4</code> (not <code v-pre>-6</code>)</p>
+<hr>
+<doc-anchor-target id="rarity-and-modifier-capacity">
     <h2>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#3-rarity-and-modifier-capacity">#</doc-anchor-trigger>
-        <span>3) Rarity and Modifier Capacity</span>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#rarity-and-modifier-capacity">#</doc-anchor-trigger>
+        <span>Rarity and Modifier Capacity</span>
     </h2>
 </doc-anchor-target>
-<p>Rarity is primarily a <strong>modifier capacity tier</strong>.</p>
+<p>Rarity determines how many modifiers an item can have.</p>
 <div class="table-wrapper scrollbar overflow-hidden">
 <table class="comfortable">
 <thead>
@@ -359,33 +357,34 @@ Quality: 20</code></pre>
         </div>
     </div>
 </div>
-<doc-anchor-target id="4-modifiers">
+<hr>
+<doc-anchor-target id="modifiers">
     <h2>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#4-modifiers">#</doc-anchor-trigger>
-        <span>4) Modifiers</span>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#modifiers">#</doc-anchor-trigger>
+        <span>Modifiers</span>
     </h2>
 </doc-anchor-target>
-<p>Modifiers are extra properties on top of the base item. They come in two main shapes:</p>
-<doc-anchor-target id="a-flat-modifiers">
+<p>Modifiers are extra properties on top of the base item. They come in two types:</p>
+<doc-anchor-target id="flat-modifiers">
     <h3>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#a-flat-modifiers">#</doc-anchor-trigger>
-        <span>A) Flat modifiers</span>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#flat-modifiers">#</doc-anchor-trigger>
+        <span>Flat Modifiers</span>
     </h3>
 </doc-anchor-target>
-<p>These add a fixed amount.</p>
+<p>Add a fixed amount to stats.</p>
 <p><strong>Examples:</strong></p>
 <ul>
 <li><code v-pre>+10 fire attack damage</code></li>
 <li><code v-pre>+10 fire spell damage</code></li>
 <li><code v-pre>+25 max health</code></li>
 </ul>
-<doc-anchor-target id="b-percent-modifiers">
+<doc-anchor-target id="percent-modifiers">
     <h3>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#b-percent-modifiers">#</doc-anchor-trigger>
-        <span>B) Percent modifiers</span>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#percent-modifiers">#</doc-anchor-trigger>
+        <span>Percent Modifiers</span>
     </h3>
 </doc-anchor-target>
-<p>These scale an existing base.</p>
+<p>Scale an existing base value.</p>
 <p><strong>Examples:</strong></p>
 <ul>
 <li><code v-pre>+10% fire damage</code></li>
@@ -404,90 +403,93 @@ Quality: 20</code></pre>
             </svg>
         </div>
         <div class="pr-5 ml-3 w-full">
-            <h5>note Percent Modifier Behavior</h5>
+            <h5>note Behavior</h5>
 <p>Percent modifiers scale a base that includes the item&#x27;s <em>native/base contribution</em> (not only &quot;other modifiers&quot;).</p>
         </div>
     </div>
 </div>
-<doc-anchor-target id="5-damage-sources-attacks-vs-spells">
+<hr>
+<doc-anchor-target id="damage-sources-attacks-vs-spells">
     <h2>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#5-damage-sources-attacks-vs-spells">#</doc-anchor-trigger>
-        <span>5) Damage Sources: Attacks vs Spells</span>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#damage-sources-attacks-vs-spells">#</doc-anchor-trigger>
+        <span>Damage Sources: Attacks vs Spells</span>
     </h2>
 </doc-anchor-target>
 <p>Modifiers can apply differently depending on whether the damage comes from an <strong>Attack</strong> or a <strong>Spell</strong>.</p>
-<doc-anchor-target id="what-counts-as-an-attack">
+<doc-anchor-target id="attacks">
     <h3>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#what-counts-as-an-attack">#</doc-anchor-trigger>
-        <span>What counts as an Attack?</span>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#attacks">#</doc-anchor-trigger>
+        <span>Attacks</span>
     </h3>
 </doc-anchor-target>
 <p>An <strong>Attack</strong> is a weapon-driven hit:</p>
 <ul>
-<li>sword/axe/club melee swings</li>
-<li>wand hits (their on-hit element is still an &quot;attack source&quot;)</li>
-<li>distance attacks (when supported)</li>
+<li>Sword/axe/club melee swings</li>
+<li>Wand hits (their on-hit element is still an &quot;attack source&quot;)</li>
+<li>Distance attacks (when supported)</li>
 </ul>
-<doc-anchor-target id="what-counts-as-a-spell">
+<doc-anchor-target id="spells">
     <h3>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#what-counts-as-a-spell">#</doc-anchor-trigger>
-        <span>What counts as a Spell?</span>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#spells">#</doc-anchor-trigger>
+        <span>Spells</span>
     </h3>
 </doc-anchor-target>
-<p>A <strong>Spell</strong> is something you cast, like:</p>
+<p>A <strong>Spell</strong> is something you cast:</p>
 <ul>
 <li><code v-pre>exori</code></li>
 <li><code v-pre>exori hur</code></li>
-<li>rune-like spell effects (if treated as spells)</li>
+<li>Rune-like spell effects (if treated as spells)</li>
 </ul>
-<doc-anchor-target id="6-elemental-components-and-creating-damage-types">
+<hr>
+<doc-anchor-target id="elemental-components">
     <h2>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#6-elemental-components-and-creating-damage-types">#</doc-anchor-trigger>
-        <span>6) Elemental components and &quot;creating&quot; damage types</span>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#elemental-components">#</doc-anchor-trigger>
+        <span>Elemental Components</span>
     </h2>
 </doc-anchor-target>
 <p>A hit can have multiple elemental components (physical, fire, ice, energy, etc.).</p>
-<doc-anchor-target id="flat-elemental-adds-can-create-a-component">
+<doc-anchor-target id="creating-damage-types">
     <h3>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#flat-elemental-adds-can-create-a-component">#</doc-anchor-trigger>
-        <span>Flat elemental adds can create a component</span>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#creating-damage-types">#</doc-anchor-trigger>
+        <span>Creating Damage Types</span>
     </h3>
 </doc-anchor-target>
-<p>If a modifier says it adds an element, and the hit does <strong>not</strong> already have that element component:</p>
+<p>If a modifier adds an element, and the hit does <strong>not</strong> already have that element component:</p>
 <ul>
 <li>The element component is <strong>created</strong>, <strong>as long as the modifier matches the hit&#x27;s source type</strong> (attack vs spell).</li>
 </ul>
-<p><strong>Example:</strong></p>
+<p><strong>Example 1:</strong></p>
 <ul>
 <li><code v-pre>+10 fire attack damage</code> on a pure physical sword hit:
 <ul>
-<li>creates a <strong>fire component</strong> and adds <strong>+10 fire</strong> to it</li>
+<li>Creates a <strong>fire component</strong> and adds <strong>+10 fire</strong> to it</li>
 </ul>
 </li>
 </ul>
-<p><strong>Example:</strong></p>
+<p><strong>Example 2:</strong></p>
 <ul>
 <li>A wand that normally deals <strong>energy</strong> (attack source)</li>
 <li>Add <code v-pre>+10 fire attack damage</code>
 <ul>
-<li>the hit keeps its <strong>energy</strong> component</li>
-<li>and gains a new <strong>fire</strong> component (+10)</li>
+<li>The hit keeps its <strong>energy</strong> component</li>
+<li>And gains a new <strong>fire</strong> component (+10)</li>
 </ul>
 </li>
 </ul>
-<doc-anchor-target id="percent-elemental-modifiers-apply-to-both-sources-unless-stated-otherwise">
+<doc-anchor-target id="percent-modifiers-1">
     <h3>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#percent-elemental-modifiers-apply-to-both-sources-unless-stated-otherwise">#</doc-anchor-trigger>
-        <span>Percent elemental modifiers apply to both sources (unless stated otherwise)</span>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#percent-modifiers-1">#</doc-anchor-trigger>
+        <span>Percent Modifiers</span>
     </h3>
 </doc-anchor-target>
 <ul>
 <li><code v-pre>+10% fire damage</code> applies to <strong>fire damage from attacks and spells</strong>.</li>
 </ul>
-<doc-anchor-target id="7-modifier-wording-examples-fire">
+<hr>
+<doc-anchor-target id="modifier-examples-fire">
     <h2>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#7-modifier-wording-examples-fire">#</doc-anchor-trigger>
-        <span>7) Modifier wording examples (fire)</span>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#modifier-examples-fire">#</doc-anchor-trigger>
+        <span>Modifier Examples (Fire)</span>
     </h2>
 </doc-anchor-target>
 <doc-anchor-target id="10-fire-attack-damage">
@@ -497,12 +499,12 @@ Quality: 20</code></pre>
     </h3>
 </doc-anchor-target>
 <ul>
-<li>Applies only to <strong>attack hits</strong> (weapon-based hits).</li>
-<li>Adds +10 to the hit&#x27;s <strong>fire</strong> component.</li>
-<li>If the hit has no fire component, it <strong>creates one</strong>.</li>
+<li>Applies only to <strong>attack hits</strong> (weapon-based hits)</li>
+<li>Adds +10 to the hit&#x27;s <strong>fire</strong> component</li>
+<li>If the hit has no fire component, it <strong>creates one</strong></li>
 </ul>
 <p><strong>Example:</strong> Wand of Vortex (base energy hit)
-Result: <strong>energy base</strong> + <strong>new fire component</strong></p>
+<strong>Result:</strong> <strong>energy base</strong> + <strong>new fire component</strong></p>
 <doc-anchor-target id="10-fire-spell-damage">
     <h3>
         <doc-anchor-trigger class="header-anchor-trigger" to="#10-fire-spell-damage">#</doc-anchor-trigger>
@@ -510,12 +512,12 @@ Result: <strong>energy base</strong> + <strong>new fire component</strong></p>
     </h3>
 </doc-anchor-target>
 <ul>
-<li>Applies only to <strong>spell hits</strong> (casted spells).</li>
-<li>Adds +10 to the spell&#x27;s <strong>fire</strong> component.</li>
-<li>If the spell has no fire component, it <strong>creates one</strong>.</li>
+<li>Applies only to <strong>spell hits</strong> (casted spells)</li>
+<li>Adds +10 to the spell&#x27;s <strong>fire</strong> component</li>
+<li>If the spell has no fire component, it <strong>creates one</strong></li>
 </ul>
 <p><strong>Example:</strong> <code v-pre>exori hur</code> that normally deals physical
-Result: <strong>physical base</strong> + <strong>new fire component</strong></p>
+<strong>Result:</strong> <strong>physical base</strong> + <strong>new fire component</strong></p>
 <doc-anchor-target id="10-fire-damage">
     <h3>
         <doc-anchor-trigger class="header-anchor-trigger" to="#10-fire-damage">#</doc-anchor-trigger>
@@ -525,16 +527,17 @@ Result: <strong>physical base</strong> + <strong>new fire component</strong></p>
 <ul>
 <li>Applies to <strong>all fire damage</strong>, regardless of source:
 <ul>
-<li>attack fire components</li>
-<li>spell fire components</li>
+<li>Attack fire components</li>
+<li>Spell fire components</li>
 </ul>
 </li>
-<li>Scales the total fire base (native + flat adds).</li>
+<li>Scales the total fire base (native + flat adds)</li>
 </ul>
-<doc-anchor-target id="8-crafting-currencies-what-they-do">
+<hr>
+<doc-anchor-target id="crafting-currencies">
     <h2>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#8-crafting-currencies-what-they-do">#</doc-anchor-trigger>
-        <span>8) Crafting currencies (what they do)</span>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#crafting-currencies">#</doc-anchor-trigger>
+        <span>Crafting Currencies</span>
     </h2>
 </doc-anchor-target>
 <p>These currencies mutate <strong>rarity</strong>, <strong>modifiers</strong>, and <strong>quality</strong> (when allowed by item eligibility).</p>
@@ -550,7 +553,7 @@ Result: <strong>physical base</strong> + <strong>new fire component</strong></p>
             </svg>
         </div>
         <div class="pr-5 ml-3 w-full">
-            <h5>Important Restriction</h5>
+            <h5>Important</h5>
 <p>You can only change Quality/Rarity/Modifiers while the item is <strong>NOT equipped</strong>.</p>
         </div>
     </div>
@@ -558,7 +561,7 @@ Result: <strong>physical base</strong> + <strong>new fire component</strong></p>
 <doc-anchor-target id="currency-catalogue">
     <h3>
         <doc-anchor-trigger class="header-anchor-trigger" to="#currency-catalogue">#</doc-anchor-trigger>
-        <span>Currency catalogue</span>
+        <span>Currency Catalogue</span>
     </h3>
 </doc-anchor-target>
 <div class="table-wrapper scrollbar overflow-hidden">
@@ -566,7 +569,7 @@ Result: <strong>physical base</strong> + <strong>new fire component</strong></p>
 <thead>
 <tr>
 <th>Currency</th>
-<th>Typical outcome</th>
+<th>Effect</th>
 </tr>
 </thead>
 <tbody>
@@ -639,57 +642,60 @@ Result: <strong>physical base</strong> + <strong>new fire component</strong></p>
         </div>
     </div>
 </div>
-<doc-anchor-target id="9-rules-and-safeguards">
+<hr>
+<doc-anchor-target id="rules-and-safeguards">
     <h2>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#9-rules-and-safeguards">#</doc-anchor-trigger>
-        <span>9) Rules and safeguards</span>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#rules-and-safeguards">#</doc-anchor-trigger>
+        <span>Rules and Safeguards</span>
     </h2>
 </doc-anchor-target>
 <doc-anchor-target id="no-mutation-while-equipped">
     <h3>
         <doc-anchor-trigger class="header-anchor-trigger" to="#no-mutation-while-equipped">#</doc-anchor-trigger>
-        <span>&quot;No mutation while equipped&quot;</span>
+        <span>No Mutation While Equipped</span>
     </h3>
 </doc-anchor-target>
 <p>Quality, rarity, and modifier changes are blocked if the item is in a real equipment slot.</p>
 <ul>
-<li>If it&#x27;s equipped: the currency/action <strong>fails</strong>.</li>
-<li>Unequip it first, then try again.</li>
+<li>If it&#x27;s equipped: the currency/action <strong>fails</strong></li>
+<li>Unequip it first, then try again</li>
 </ul>
 <doc-anchor-target id="quality-and-modifiers-are-independent">
     <h3>
         <doc-anchor-trigger class="header-anchor-trigger" to="#quality-and-modifiers-are-independent">#</doc-anchor-trigger>
-        <span>Quality and Modifiers are independent</span>
+        <span>Quality and Modifiers Are Independent</span>
     </h3>
 </doc-anchor-target>
 <ul>
-<li><strong>Quality</strong> scales base stats.</li>
-<li><strong>Modifiers</strong> add or scale extra effects.</li>
-<li>Quality does <strong>not</strong> multiply modifier values.</li>
+<li><strong>Quality</strong> scales base stats</li>
+<li><strong>Modifiers</strong> add or scale extra effects</li>
+<li>Quality does <strong>not</strong> multiply modifier values</li>
 </ul>
-<doc-anchor-target id="10-quick-examples">
+<hr>
+<doc-anchor-target id="quick-examples">
     <h2>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#10-quick-examples">#</doc-anchor-trigger>
-        <span>10) Quick examples</span>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#quick-examples">#</doc-anchor-trigger>
+        <span>Quick Examples</span>
     </h2>
 </doc-anchor-target>
-<doc-anchor-target id="example-a-quality-scaling-serpent-sword">
+<doc-anchor-target id="example-a-quality-scaling">
     <h3>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#example-a-quality-scaling-serpent-sword">#</doc-anchor-trigger>
-        <span>Example A: Quality scaling (Serpent Sword)</span>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#example-a-quality-scaling">#</doc-anchor-trigger>
+        <span>Example A: Quality Scaling</span>
     </h3>
 </doc-anchor-target>
+<p><strong>Serpent Sword:</strong></p>
 <ul>
 <li>Base: <code v-pre>Atk:18 physical + 8 earth</code></li>
 <li>Quality 20 → <code v-pre>Atk:22 physical + 10 earth</code></li>
 </ul>
-<doc-anchor-target id="example-b-element-creation-attack">
+<doc-anchor-target id="example-b-element-creation">
     <h3>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#example-b-element-creation-attack">#</doc-anchor-trigger>
-        <span>Example B: Element creation (attack)</span>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#example-b-element-creation">#</doc-anchor-trigger>
+        <span>Example B: Element Creation</span>
     </h3>
 </doc-anchor-target>
-<p>A physical sword hit with <code v-pre>+10 fire attack damage</code>:</p>
+<p><strong>Physical sword hit with <code v-pre>+10 fire attack damage</code>:</strong></p>
 <ul>
 <li>Physical remains</li>
 <li>Fire component is created: <code v-pre>+10 fire</code></li>
@@ -697,7 +703,7 @@ Result: <strong>physical base</strong> + <strong>new fire component</strong></p>
 <doc-anchor-target id="example-c-spell-vs-attack">
     <h3>
         <doc-anchor-trigger class="header-anchor-trigger" to="#example-c-spell-vs-attack">#</doc-anchor-trigger>
-        <span>Example C: Spell vs attack</span>
+        <span>Example C: Spell vs Attack</span>
     </h3>
 </doc-anchor-target>
 <ul>
