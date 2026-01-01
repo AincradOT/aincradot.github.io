@@ -36,7 +36,7 @@ Not every item can roll these properties.
 * Containers
 * Ammo (excluded from quality scaling and usually excluded from properties)
 
-!!! info "Eligibility Note"
+!!!info Eligibility Note
 If an item is not eligible, it simply won't gain these properties.
 !!!
 
@@ -83,7 +83,7 @@ Quality: 20
 
 ### Rounding rule (important)
 
-!!! warning "Important Rounding Rule"
+!!!danger Important Rounding Rule
 Quality scaling always moves values in the "stronger" direction:
 
 * **Positive values** increase using half-up rounding.
@@ -107,7 +107,7 @@ Rarity is primarily a **modifier capacity tier**.
 | **Epic**      |                 4 |
 | **Legendary** |                 5 |
 
-!!! tip "Key Rule"
+!!!tip Key Rule
 You can't have more modifiers than your rarity allows.
 !!!
 
@@ -134,7 +134,7 @@ These scale an existing base.
 * `+10% fire damage`
 * `+12% physical damage`
 
-!!! note "Percent Modifier Behavior"
+!!!note Percent Modifier Behavior
 Percent modifiers scale a base that includes the item's *native/base contribution* (not only "other modifiers").
 !!!
 
@@ -215,7 +215,7 @@ Result: **physical base** + **new fire component**
 
 These currencies mutate **rarity**, **modifiers**, and **quality** (when allowed by item eligibility).
 
-!!! danger "Important Restriction"
+!!!danger Important Restriction
 You can only change Quality/Rarity/Modifiers while the item is **NOT equipped**.
 !!!
 
@@ -236,7 +236,7 @@ You can only change Quality/Rarity/Modifiers while the item is **NOT equipped**.
 | **Orb of Alchemy**       | Normal → Rare (rolls up to Rare capacity)                         |
 | **Quality currency**     | Increases Quality up to the cap (0–20)                            |
 
-!!! note "Server Tuning"
+!!!note Server Tuning
 Exact drop rates and some rule details are server-tuned.
 !!!
 

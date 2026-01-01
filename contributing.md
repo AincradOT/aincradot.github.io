@@ -30,7 +30,7 @@ This wiki is an open project that welcomes contributions from all players. If yo
 * Write clearly and concisely
 * Test all links before submitting
 
-!!! tip "Need Help?"
+!!!tip Need Help?
 If you're unsure about how to contribute or have questions, feel free to open an issue on GitHub or ask in our Discord channel.
 !!!
 

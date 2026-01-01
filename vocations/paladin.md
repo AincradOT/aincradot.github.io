@@ -40,6 +40,6 @@ Balanced vocation that excels at ranged combat with both physical and magical da
 * Exura Gran - Strong self-healing
 * Utani Hur - Speed boost
 
-!!! tip "Paladin Tip"
+!!!tip Paladin
 Master kiting - attack from range while moving. Keep arrows/bolts stocked and manage mana for healing.
 !!!

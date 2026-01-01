@@ -40,6 +40,6 @@ Frontline warrior specializing in melee combat with high HP and physical damage.
 * Utito Tempo - Berserker mode (damage boost)
 * Utani Hur - Speed boost
 
-!!! tip "Knight Tip"
+!!!tip Knight
 Prioritize HP and defense. Your job is to survive and protect the party, not deal the most damage.
 !!!

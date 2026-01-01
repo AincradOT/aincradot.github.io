@@ -27,7 +27,7 @@ Each vocation has unique strengths, weaknesses, and specializations. Your choice
 | **[Sorcerer](sorcerer.md)** | Magic DPS      | Energy/Fire    | High damage spells, area effects  |
 | **[Druid](druid.md)**  | Support/Healer | Ice/Earth      | Healing, support spells, utility   |
 
-!!! tip "Vocation Selection"
+!!!tip Vocation Selection
 Choose your vocation carefully when creating your character. While you can create multiple characters, each vocation offers a unique gameplay experience. Knights excel in close combat, Paladins are versatile ranged fighters, Sorcerers deal massive magic damage, and Druids provide essential support and healing.
 !!!
 
@@ -71,11 +71,11 @@ Upon reaching level 20, you'll receive:
 * A **vocation-specific starter kit** containing item upgrades and a promotion
 * **Directions** to locate the first floor boss
 
-!!! warning "First Floor Boss Caution"
+!!!danger First Floor Boss
 The first floor boss is a powerful enemy. Make sure you're well-equipped and consider forming a party before attempting to fight it. Preparation is key to success.
 !!!
 
-!!! note "Multiple Characters"
+!!!note Multiple Characters
 You can create multiple characters with different vocations to experience all playstyles. Each character progresses independently.
 !!!
 

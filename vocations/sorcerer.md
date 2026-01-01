@@ -42,10 +42,10 @@ Powerful magic user specializing in destructive spells and area-of-effect damage
 * Exevo Gran Mas Flam - Area fire attack
 * Exura - Basic healing (limited)
 
-!!! warning "Sorcerer Warning"
+!!!danger Sorcerer
 Most fragile vocation. Keep distance from enemies. High damage = low survivability.
 !!!
 
-!!! tip "Sorcerer Tip"
+!!!tip Sorcerer
 Focus on magic level and spell damage. Kill enemies before they reach you. Always carry mana potions.
 !!!

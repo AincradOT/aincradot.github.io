@@ -44,10 +44,10 @@ Support vocation specializing in healing, utility spells, and nature-based magic
 * Exevo Mas Frigo - Area ice attack
 * Utani Hur - Speed boost
 
-!!! tip "Druid Tip"
+!!!tip Druid
 Keep your party alive first. You can deal damage when safe, but healing is priority. Monitor party HP and mana.
 !!!
 
-!!! note "Party Essential"
+!!!note Party Essential
 Druids are always in demand for group content. Your healing makes you highly valuable.
 !!!

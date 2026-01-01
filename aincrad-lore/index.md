@@ -34,6 +34,6 @@ Elite players who push forward to clear new floors are known as "Clearers." Thes
 * **Unique Systems** - Ancestral Rifts, vocations, and crafting add depth to the Aincrad experience
 * **Progression** - Advance through floors by defeating bosses and completing challenges
 
-!!! tip "Survival Tip"
+!!!tip Survival
 Form parties with other players. Teamwork makes clearing floors much easier and more efficient.
 !!!
