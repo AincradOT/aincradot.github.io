@@ -272,20 +272,20 @@ You can only change Quality/Rarity/Modifiers while the item is **NOT equipped**.
 
 ### Currency Catalogue
 
-| Currency                 | Effect                                                           |
-| ------------------------ | ---------------------------------------------------------------- |
-| **Orb of Transmutation** | Normal → Magic (rolls up to Magic capacity)                       |
-| **Orb of Alteration**    | Rerolls modifiers (within current rarity capacity)                |
-| **Orb of Augmentation**  | Adds 1 new modifier (if capacity allows)                          |
-| **Orb of Regal**         | Magic → Rare (+1 modifier)                                        |
-| **Orb of Exalted**       | Adds 1 new modifier and may increase rarity tier (if rules allow) |
-| **Orb of Chaos**         | Rerolls a rare item's modifiers                                   |
-| **Divine Orb**           | Rerolls modifier values (keeps the same modifier IDs)             |
-| **Orb of Annulment**     | Removes 1 modifier                                                |
-| **Orb of Scouring**      | Removes all modifiers (and normalizes item state per rules)       |
-| **Orb of Chance**        | Random rarity outcome (rule-based)                                |
-| **Orb of Alchemy**       | Normal → Rare (rolls up to Rare capacity)                         |
-| **Quality currency**     | Increases Quality up to the cap (0–20)                            |
+| Currency                 | Effect                                                      | Restrictions                    | Use Case                                    |
+| ------------------------ | ----------------------------------------------------------- | ------------------------------- | ------------------------------------------- |
+| **Orb of Quality**       | Increases Quality by 1 (max 20). Scales base stats only.     | Eligible items, Quality < 20   | Improve base stats on good items             |
+| **Orb of Transmutation** | Normal → Uncommon or Magic (random). Grants 1-2 modifiers.  | Normal items only               | Upgrade white items to get modifiers        |
+| **Orb of Alteration**    | Rerolls all modifiers. Keeps same rarity.                   | Uncommon or Magic only          | Reroll bad modifiers on Magic items         |
+| **Orb of Augmentation**  | Adds 1 modifier to Magic item.                              | Magic with 1 modifier only      | Add second modifier to Magic items          |
+| **Orb of Chance**        | Normal → random tier (Uncommon → Legendary).                | Normal items only               | Gamble for high-tier items                  |
+| **Orb of Scouring**      | Removes all modifiers, resets to Normal.                    | Any item                        | Start fresh on bad items                    |
+| **Orb of Regal**         | Magic → Rare. Adds +1 modifier, keeps existing.             | Magic items only                | Upgrade to Rare without losing modifiers    |
+| **Orb of Alchemy**       | Normal → Rare. Rolls up to 3 modifiers.                    | Normal items only               | Fast path to Rare tier                      |
+| **Orb of Chaos**         | Rerolls all modifiers and rarity. Can upgrade tier.         | Items with 3+ modifiers (Rare+) | Reroll everything, chance to upgrade       |
+| **Orb of Annulment**     | Removes 1 random modifier.                                 | Items with modifiers            | Remove bad modifiers before adding new ones |
+| **Orb of Exalted**       | Adds 1 modifier if capacity allows.                        | Rare/Epic with open slots      | Fill remaining modifier slots              |
+| **Divine Orb**           | Rerolls modifier values only. Keeps modifier types.         | Items with modifiers            | Improve values on good modifier types       |
 
 !!!info Server Tuning
 Exact drop rates and some rule details are server-tuned.
