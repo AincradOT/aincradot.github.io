@@ -23,7 +23,7 @@ Each vocation has unique strengths, weaknesses, and specializations. Your choice
 | Vocation   | Role           | Primary Damage | Specialization                    |
 | ----------| -------------- | -------------- | ---------------------------------- |
 | **[Knight](knight.md)** | Tank/Melee DPS | Physical       | High HP, strong melee combat      |
-| **[Paladin](paladin.md)** | Ranged DPS     | Physical       | Balanced stats, versatile combat   |
+| **[Paladin](paladin.md)** | Ranged DPS     | Physical/Holy       | Balanced stats, versatile combat   |
 | **[Sorcerer](sorcerer.md)** | Magic DPS      | Energy/Fire    | High damage spells, area effects  |
 | **[Druid](druid.md)**  | Support/Healer | Ice/Earth      | Healing, support spells, utility   |
 

@@ -50,6 +50,7 @@ If an item is not eligible, it simply won't gain these properties.
 
 It does **not** change the item's modifiers. Quality only scales what the item already "is" underneath.
 
+
 ### Base Stats
 
 Depending on the item type, Quality can scale:
@@ -62,6 +63,7 @@ Depending on the item type, Quality can scale:
 * Speed bonuses
 * Stat/skill bonuses
 * Regen gain amounts
+
 
 ### Example: Serpent Sword
 
@@ -83,6 +85,7 @@ You see a serpent sword (Atk:18 physical + 8 earth, Def:15 +1).
 ```
 You see a serpent sword (Atk:22 physical + 10 earth, Def:18 +1).
 ```
+
 
 ### Rounding Rule
 
@@ -120,6 +123,7 @@ You can't have more modifiers than your rarity allows.
 
 Modifiers are extra properties on top of the base item. They come in two types:
 
+
 ### Flat Modifiers
 
 Add a fixed amount to stats.
@@ -130,6 +134,7 @@ Add a fixed amount to stats.
 * `+10 fire spell damage`
 * `+25 max health`
 
+
 ### Percent Modifiers
 
 Scale an existing base value.
@@ -139,15 +144,41 @@ Scale an existing base value.
 * `+10% fire damage`
 * `+12% physical damage`
 
-!!!note Behavior
+!!!info Behavior
 Percent modifiers scale a base that includes the item's *native/base contribution* (not only "other modifiers").
 !!!
+
+### Available Modifier Types
+
+Here are some examples of the modifiers available in the system:
+
+| Category | Modifier | Type | Example |
+|----------|----------|------|---------|
+| **Elemental Damage** | Fire/ice/energy/earth/holy/death/physical | Flat | `+10 fire attack damage` |
+| **Damage Increase** | Elemental damage boost | Percentage | `+15% fire damage` |
+| **Resistance** | Elemental absorption | Percentage | `+20% fire absorb` |
+| **Resistance** | Elemental reduction | Flat | `+15 fire resistance` |
+| **Damage Over Time** | Elemental DoT | Flat | `+8 fire damage over time` |
+| **Stats** | Health/Mana | Flat | `+50 max health` |
+| **Stats** | Health/Mana | Percentage | `+10% max mana` |
+| **Critical** | Critical chance | Flat | `+5% critical chance` |
+| **Critical** | Critical damage | Percentage | `+25% critical damage` |
+| **Recovery** | Health/Mana regen | Flat | `+3 health per second` |
+| **Leech** | Life/Mana leech | Percentage | `+5% life leech` |
+| **Attributes** | Intelligence/Dexterity/Strength | Flat | `+30 intelligence` |
+
+!!!info More Modifiers Available
+This table shows a sample of available modifiers. The full system includes modifiers for all seven elements (energy, fire, ice, earth, holy, death, physical) across multiple categories. Modifier values scale with item tier/level.
+!!!
+<｜tool▁call▁begin｜>
+read_lints
 
 ---
 
 ## Damage Sources: Attacks vs Spells
 
 Modifiers can apply differently depending on whether the damage comes from an **Attack** or a **Spell**.
+
 
 ### Attacks
 
@@ -156,6 +187,7 @@ An **Attack** is a weapon-driven hit:
 * Sword/axe/club melee swings
 * Wand hits (their on-hit element is still an "attack source")
 * Distance attacks (when supported)
+
 
 ### Spells
 
@@ -170,6 +202,7 @@ A **Spell** is something you cast:
 ## Elemental Components
 
 A hit can have multiple elemental components (physical, fire, ice, energy, etc.).
+
 
 ### Creating Damage Types
 
@@ -189,6 +222,7 @@ If a modifier adds an element, and the hit does **not** already have that elemen
   * The hit keeps its **energy** component
   * And gains a new **fire** component (+10)
 
+
 ### Percent Modifiers
 
 * `+10% fire damage` applies to **fire damage from attacks and spells**.
@@ -196,6 +230,7 @@ If a modifier adds an element, and the hit does **not** already have that elemen
 ---
 
 ## Modifier Examples (Fire)
+
 
 ### `+10 fire attack damage`
 
@@ -206,6 +241,7 @@ If a modifier adds an element, and the hit does **not** already have that elemen
 **Example:** Wand of Vortex (base energy hit)
 **Result:** **energy base** + **new fire component**
 
+
 ### `+10 fire spell damage`
 
 * Applies only to **spell hits** (casted spells)
@@ -214,6 +250,7 @@ If a modifier adds an element, and the hit does **not** already have that elemen
 
 **Example:** `exori hur` that normally deals physical
 **Result:** **physical base** + **new fire component**
+
 
 ### `+10% fire damage`
 
@@ -232,6 +269,7 @@ These currencies mutate **rarity**, **modifiers**, and **quality** (when allowed
 You can only change Quality/Rarity/Modifiers while the item is **NOT equipped**.
 !!!
 
+
 ### Currency Catalogue
 
 | Currency                 | Effect                                                           |
@@ -249,7 +287,7 @@ You can only change Quality/Rarity/Modifiers while the item is **NOT equipped**.
 | **Orb of Alchemy**       | Normal → Rare (rolls up to Rare capacity)                         |
 | **Quality currency**     | Increases Quality up to the cap (0–20)                            |
 
-!!!note Server Tuning
+!!!info Server Tuning
 Exact drop rates and some rule details are server-tuned.
 !!!
 
@@ -257,12 +295,14 @@ Exact drop rates and some rule details are server-tuned.
 
 ## Rules and Safeguards
 
+
 ### No Mutation While Equipped
 
 Quality, rarity, and modifier changes are blocked if the item is in a real equipment slot.
 
 * If it's equipped: the currency/action **fails**
 * Unequip it first, then try again
+
 
 ### Quality and Modifiers Are Independent
 
@@ -274,17 +314,20 @@ Quality, rarity, and modifier changes are blocked if the item is in a real equip
 
 ## Quick Examples
 
+
 ### Example A: Quality Scaling
 
 **Serpent Sword:**
 * Base: `Atk:18 physical + 8 earth`
 * Quality 20 → `Atk:22 physical + 10 earth`
 
+
 ### Example B: Element Creation
 
 **Physical sword hit with `+10 fire attack damage`:**
 * Physical remains
 * Fire component is created: `+10 fire`
+
 
 ### Example C: Spell vs Attack
 

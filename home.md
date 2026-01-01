@@ -10,7 +10,7 @@ Welcome to the official Aincrad RPG Wiki for version 1.1! This community-created
 
 ## What is Aincrad?
 
-[!badge variant="primary" text="MMORPG"] [!badge variant="success" text="closed-beta"]
+[!badge variant="primary" text="MMORPG"] [!badge variant="success" text="Closed Beta"]
 
 Aincrad is a custom Tibia server that transforms the traditional Tibia gameplay into a full-fledged RPG experience. With unique systems like Ancestral Rifts, Aincrad vocations, gear scores, prestige levels, and much more, Aincrad offers a fresh take on the classic MMORPG formula.
 
