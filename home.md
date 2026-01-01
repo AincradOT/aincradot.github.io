@@ -4,7 +4,7 @@ icon: question
 order: 110
 ---
 
-# Aincrad RPG Wiki
+# Aincrad Wiki
 
 Welcome to the official Aincrad anime-inspired progression MMO Wiki! This community-created resource aims to help new and existing players navigate the rich world of Aincrad.
 

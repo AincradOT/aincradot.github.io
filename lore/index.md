@@ -1,7 +1,7 @@
 ---
-label: Aincrad Lore
+label: Lore
 icon: book
-order: 95
+order: 100
 expanded: false
 ---
 
