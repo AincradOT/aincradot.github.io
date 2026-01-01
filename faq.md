@@ -10,7 +10,7 @@ order: 20
 
 ### What is Aincrad?
 
-Aincrad is a custom Tibia server based on protocol 10.98, featuring unique RPG elements like Aincrad vocations, rifts, and advanced progression systems beyond traditional leveling.
+Aincrad is a custom Tibia server based on protocol 13.21, featuring unique RPG elements like Aincrad vocations, rifts, and advanced progression systems beyond traditional leveling.
 
 ### Is Aincrad free to play?
 
@@ -28,35 +28,23 @@ You choose your vocation when creating your character. This choice is permanent 
 
 Visit the [Vocations Guide](vocations/index.md) to learn about all available vocations and find the one that fits your playstyle.
 
-### What happens at level 20?
-
-At level 20, you'll receive a vocation-specific starter kit (including item upgrades and a promotion) and directions to the first floor boss. **Be cautious** - floor bosses are powerful and often require a party to defeat. Make sure you're well-prepared before attempting the boss.
-
-### What is the Gear Score system?
-
-Gear Score represents the quality of your equipment. Each piece of gear contributes points to your total score, which determines access to certain areas and content.
-
-### How do I access Ancestral Rifts?
-
-Complete "The First Fragment" quest to unlock the Ancestral Rifts system. You'll need to achieve specific Ancestral Rankings to access higher-tier rifts.
-
-### When do World Bosses spawn?
-
-Each World Boss has a specific day and time of the week when it appears. Check the in-game announcements for the complete schedule.
-
 ## Technical Questions
 
 ### What client version does Aincrad use?
 
-Aincrad uses a custom client based on Tibia protocol 10.98.
+Aincrad uses a custom client based on [OTClient](https://github.com/mehah/otclient) using protocol 13.21.
+
+### What server does Aincrad use?
+
+Aincrad uses a custom server based on [Canary](https://github.com/opentibiabr/canary) using protocol 13.21. The server is hosted in Frankfurt, Germany.
 
 ### I'm experiencing lag/crashes. How can I fix this?
 
-Try restarting your client, checking your internet connection, or contacting support on Discord for assistance with technical issues.
+Try restarting your client, checking your internet connection, or contacting support on Discord for assistance with technical issues. The server is hosted in Frankfurt, Germany, so players closer to that region may experience better latency.
 
 ### Can I play Aincrad on my Mac/Linux computer?
 
-Yes, Aincrad supports Windows, Mac, and Linux operating systems.
+Mac and Linux support is currently in development. When available, it will be listed on our [download page](https://sword-art.online/download). Join our [Discord](https://discord.gg/X7rdNahscB) to follow development updates.
 
 [!ref icon="rocket" text="Getting Started Guide"](getting-started/index.md)
 [!ref icon="comment-discussion" text="Ask in Discord"](https://discord.gg/X7rdNahscB)
