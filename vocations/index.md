@@ -1,13 +1,13 @@
 ---
 label: Vocations
 icon: shield
-order: 80
+order: 85
 expanded: false
 ---
 
 # Vocations in Aincrad
 
-Aincrad uses the classic Open Tibia TFS (The Forgotten Server) vocation system. Choose your vocation to define your character's role, abilities, and playstyle.
+Aincrad uses a classic vocation system. Choose your vocation to define your character's role, abilities, and playstyle.
 
 ## Vocation Basics
 

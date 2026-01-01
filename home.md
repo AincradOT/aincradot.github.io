@@ -10,19 +10,26 @@ Welcome to the official Aincrad RPG Wiki for version 1.1! This community-created
 
 ## What is Aincrad?
 
-[!badge variant="primary" text="RPG"] [!badge variant="success" text="v0.11.0"] [!badge variant="danger" text="Protocol 13.21+"]
+[!badge variant="primary" text="MMORPG"] [!badge variant="success" text="closed-beta"]
 
-Aincrad is a custom Tibia server that transforms the traditional Tibia gameplay into a full-fledged RPG experience. With unique systems like Ancestral Rifts, TFS vocations, gear scores, prestige levels, and much more, Aincrad offers a fresh take on the classic MMORPG formula.
+Aincrad is a custom Tibia server that transforms the traditional Tibia gameplay into a full-fledged RPG experience. With unique systems like Ancestral Rifts, Aincrad vocations, gear scores, prestige levels, and much more, Aincrad offers a fresh take on the classic MMORPG formula.
 
-## Getting Started
+## Explore Aincrad
 
-New to Aincrad? Check out these resources to begin your adventure:
+### Aincrad Lore
 
-[!ref icon="rocket" text="Getting Started"](01-getting-started/index.md)
-Your first steps into Aincrad: installation, character creation, and basic controls.
+[!ref icon="book" text="Aincrad Lore & History"](aincrad-lore/index.md)
+Discover the world of Aincrad—the floating castle from Sword Art Online. Learn about the 100-floor tower, floor progression, and the elite players known as Clearers who push forward to clear new floors.
 
-[!ref icon="shield" text="Vocations"](03-professions/index.md)
-Learn about the four TFS vocations: Knight, Paladin, Sorcerer, and Druid.
+### Getting Started
+
+[!ref icon="rocket" text="Getting Started Guide"](getting-started/index.md)
+Your first steps into Aincrad: download the launcher, create an account, choose your vocation, and begin your adventure. Complete tutorial quests and prepare for your first floor boss encounter.
+
+### Vocations
+
+[!ref icon="shield" text="Vocations Guide"](vocations/index.md)
+Learn about the available Aincrad vocations and choose the one that fits your playstyle. Each vocation offers unique strengths, abilities, and combat styles.
 
 ## About the Aincrad Wiki
 
@@ -34,12 +41,7 @@ Our goal is to provide accurate, up-to-date information about all aspects of Ain
 
 ### Contributing
 
-This wiki is an open project that welcomes contributions from all players. If you'd like to help improve the wiki:
-
-1. Visit our [GitHub Repository](https://github.com/aincradot/aincradot.github.io)
-2. Create a fork of the repository
-3. Make your changes and submit a pull request
-4. Wiki maintainers will review and merge your contributions
+This wiki is an open project that welcomes contributions from all players. [Learn how to contribute](contributing.md).
 
 ### Contact
 

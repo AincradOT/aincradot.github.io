@@ -1,7 +1,7 @@
 ---
 label: Getting Started
 icon: rocket
-order: 100
+order: 105
 expanded: false
 ---
 
@@ -11,13 +11,15 @@ Welcome to Aincrad RPG! This section will guide you through everything you need 
 
 ## First Steps
 
-- [Installation](installation.md) - Download and set up the Aincrad client
+Download the latest Aincrad launcher to get started:
+
+[!button variant="primary" icon="download" text="Download Launcher"](https://sword-art.online/download)
 
 ## Quick Start Checklist
 
-- [ ] Create a new account
+- [ ] [Download and install the Aincrad launcher](https://sword-art.online/download)
+- [ ] [Create a new account](https://sword-art.online/account/register)
 - [ ] Create your first character (choose your vocation: Knight, Paladin, Sorcerer, or Druid)
-- [ ] Download and install the Aincrad client
 - [ ] Explore the first floor and complete tutorial quests
 - [ ] Reach level 20 to receive your vocation-specific starter kit and directions to the first floor boss
 
@@ -32,7 +34,3 @@ Upon reaching level 20, you'll receive a vocation-specific starter kit (includin
 ## Video Guide
 
 <!-- Video guide coming soon -->
-
-:::content-center
-[!button variant="success" icon="arrow-right" text="Installation Guide"](installation.md)
-:::

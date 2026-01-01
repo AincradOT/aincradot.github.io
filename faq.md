@@ -10,7 +10,7 @@ order: 20
 
 ### What is Aincrad?
 
-Aincrad is a custom Tibia server based on protocol 10.98, featuring unique RPG elements like TFS vocations, rifts, and advanced progression systems beyond traditional leveling.
+Aincrad is a custom Tibia server based on protocol 10.98, featuring unique RPG elements like Aincrad vocations, rifts, and advanced progression systems beyond traditional leveling.
 
 ### Is Aincrad free to play?
 
@@ -18,13 +18,15 @@ Yes, Aincrad is completely free to download and play. The server is open to ever
 
 ### How do I download and install Aincrad?
 
-Visit the [Getting Started](01-getting-started/installation.md) section for complete installation instructions.
+Download the Aincrad launcher from the [download page](https://sword-art.online/download). The launcher will handle the installation and setup for you.
 
 ## Gameplay Questions
 
 ### How do I choose my vocation?
 
-You choose your vocation when creating your character: Knight, Paladin, Sorcerer, or Druid. This choice is permanent for that character, so choose based on your preferred playstyle.
+You choose your vocation when creating your character. This choice is permanent for that character, so choose based on your preferred playstyle.
+
+Visit the [Vocations Guide](vocations/index.md) to learn about all available vocations and find the one that fits your playstyle.
 
 ### What happens at level 20?
 
@@ -56,5 +58,5 @@ Try restarting your client, checking your internet connection, or contacting sup
 
 Yes, Aincrad supports Windows, Mac, and Linux operating systems.
 
-[!ref icon="rocket" text="Getting Started Guide"](01-getting-started/index.md)
+[!ref icon="rocket" text="Getting Started Guide"](getting-started/index.md)
 [!ref icon="comment-discussion" text="Ask in Discord"](https://discord.gg/X7rdNahscB)

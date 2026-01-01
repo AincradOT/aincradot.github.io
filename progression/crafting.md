@@ -8,7 +8,7 @@ order: 1
 
 [!badge variant="info" text="Path of Exile Style"] [!badge variant="success" text="Advanced System"]
 
-This server adds a Path-of-Exile–style item layer on top of normal Tibia/TFS items.
+This server adds a Path-of-Exile–style item layer on top of normal Tibia/Aincrad items.
 
 Every eligible equipment item can have:
 

@@ -1,7 +1,7 @@
 ---
 label: Game Features
 icon: graph
-order: 70
+order: 75
 expanded: false
 ---
 
