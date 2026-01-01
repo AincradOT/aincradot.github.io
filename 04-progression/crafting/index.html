@@ -1,0 +1,790 @@
+<!DOCTYPE html>
+<html lang="en" class="h-full">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.11.0.820557151422">
+
+    <!-- See retype.com -->
+    <meta name="generator" content="Retype 3.11.0">
+
+    <!-- Primary Meta Tags -->
+    <title>Item Quality, Rarity &amp; Modifiers Guide</title>
+    <meta name="title" content="Item Quality, Rarity & Modifiers Guide">
+    <meta name="description" content="This server adds a Path-of-Exile–style item layer on top of normal Tibia/TFS items.">
+
+    <!-- Canonical -->
+    <link rel="canonical" href="https://aincradot.github.io/04-progression/crafting/">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://aincradot.github.io/04-progression/crafting/">
+    <meta property="og:title" content="Item Quality, Rarity & Modifiers Guide">
+    <meta property="og:description" content="This server adds a Path-of-Exile–style item layer on top of normal Tibia/TFS items.">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://aincradot.github.io/04-progression/crafting/">
+    <meta property="twitter:title" content="Item Quality, Rarity & Modifiers Guide">
+    <meta property="twitter:description" content="This server adds a Path-of-Exile–style item layer on top of normal Tibia/TFS items.">
+
+    <script data-cfasync="false">(function(){var cl=document.documentElement.classList,ls=localStorage.getItem("retype_scheme"),hd=cl.contains("dark"),hl=cl.contains("light"),wm=window.matchMedia&&window.matchMedia("(prefers-color-scheme: dark)").matches;if(ls==="dark"||(!ls&&wm&&!hd&&!hl)){cl.remove("light");cl.add("dark")}else if(ls==="light"||(!ls&&!wm&&!hd&&!hl)){cl.remove("dark");cl.add("light")}})();</script>
+
+    <link href="../../resources/css/retype.css?v=3.11.0.820557151422" rel="stylesheet">
+
+    <script data-cfasync="false" src="../../resources/js/config.js?v=3.11.0.820557151422" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="../../resources/js/retype.js?v=3.11.0" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" data-cfasync="false" src="../../resources/js/lunr.js?v=3.11.0.820557151422" data-turbo-eval="false" defer></script>
+</head>
+<body>
+    <div id="retype-app" class="relative text-base antialiased text-base-text bg-base-bg font-body">
+        <div class="absolute bottom-0 left-0" style="top: 5rem; right: 50%"></div>
+    
+        <header id="retype-header" class="sticky top-0 z-30 flex w-full h-16 bg-header-bg border-b border-header-border md:h-20">
+            <div class="container relative flex items-center justify-between pr-6 grow md:justify-start">
+                <!-- Mobile menu button skeleton -->
+                <button v-cloak class="skeleton retype-mobile-menu-button flex items-center justify-center shrink-0 overflow-hidden dark:text-white focus:outline-none rounded-full w-10 h-10 ml-3.5 md:hidden"><svg xmlns="http://www.w3.org/2000/svg" class="mb-px shrink-0" width="24" height="24" viewBox="0 0 24 24" role="presentation" style="margin-bottom: 0px;"><g fill="currentColor"><path d="M2 4h20v2H2zM2 11h20v2H2zM2 18h20v2H2z"></path></g></svg></button>
+                <div v-cloak id="retype-sidebar-left-toggle-button"></div>
+        
+                <!-- Logo -->
+                <div class="flex items-center justify-between h-full py-2 md:w-75">
+                    <div class="flex items-center px-2 md:px-6">
+                        <a id="retype-branding-logo" href="../../" class="flex items-center leading-snug text-2xl">
+                            <span class="dark:text-white font-bold line-clamp-1 md:line-clamp-2">Aincrad</span>
+                        </a><span id="retype-branding-label" class="inline-flex mt-1 px-2 py-1 ml-4 text-xs font-medium leading-none items-center rounded-md bg-branding-label-bg text-branding-label-text ring-1 ring-branding-label-border ring-inset md:inline-block">Wiki</span>
+                    </div>
+        
+                    <span class="hidden h-8 border-r md:inline-block border-base-border"></span>
+                </div>
+        
+                <div class="flex justify-between md:grow">
+                    <!-- Top Nav -->
+                    <nav id="retype-header-nav" class="hidden md:flex">
+                        <ul class="flex flex-col mb-4 md:pl-16 md:mb-0 md:flex-row md:items-center">
+                            <li class="mr-6">
+                                <a class="py-2 md:mb-0 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-header-text font-header-text-weight hover:text-header-text-hover" href="https://retype.com/guides/getting-started/">Getting Started</a>
+                            </li>
+        
+                        </ul>
+                    </nav>
+        
+                    <!-- Header Right Skeleton -->
+                    <div v-cloak class="flex justify-end grow skeleton">
+        
+                        <!-- Search input mock -->
+                        <div class="relative hidden w-40 lg:block lg:max-w-sm lg:ml-auto">
+                            <div class="absolute flex items-center justify-center h-full pl-3 dark:text-dark-300">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="icon-base" width="16" height="16" viewBox="0 0 24 24" aria-labelledby="icon" role="presentation" style="margin-bottom: 1px;"><g fill="currentColor" ><path d="M21.71 20.29l-3.68-3.68A8.963 8.963 0 0020 11c0-4.96-4.04-9-9-9s-9 4.04-9 9 4.04 9 9 9c2.12 0 4.07-.74 5.61-1.97l3.68 3.68c.2.19.45.29.71.29s.51-.1.71-.29c.39-.39.39-1.03 0-1.42zM4 11c0-3.86 3.14-7 7-7s7 3.14 7 7c0 1.92-.78 3.66-2.04 4.93-.01.01-.02.01-.02.01-.01.01-.01.01-.01.02A6.98 6.98 0 0111 18c-3.86 0-7-3.14-7-7z" ></path></g></svg>
+                            </div>
+                            <input class="w-full h-10 placeholder-search-placeholder transition-colors duration-200 ease-in bg-search-bg border border-transparent rounded md:text-sm hover:border-search-border-hover focus:outline-none focus:border-search-border-focus" style="padding: 0.625rem 0.75rem 0.625rem 2rem" type="text" placeholder="Search">
+                        </div>
+        
+                        <!-- Mobile search button -->
+                        <div class="flex items-center justify-center w-10 h-10 lg:hidden">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="shrink-0 icon-base" width="20" height="20" viewBox="0 0 24 24" aria-labelledby="icon" role="presentation" style="margin-bottom: 0px;"><g fill="currentColor" ><path d="M21.71 20.29l-3.68-3.68A8.963 8.963 0 0020 11c0-4.96-4.04-9-9-9s-9 4.04-9 9 4.04 9 9 9c2.12 0 4.07-.74 5.61-1.97l3.68 3.68c.2.19.45.29.71.29s.51-.1.71-.29c.39-.39.39-1.03 0-1.42zM4 11c0-3.86 3.14-7 7-7s7 3.14 7 7c0 1.92-.78 3.66-2.04 4.93-.01.01-.02.01-.02.01-.01.01-.01.01-.01.02A6.98 6.98 0 0111 18c-3.86 0-7-3.14-7-7z" ></path></g></svg>
+                        </div>
+        
+                        <!-- Dark mode switch placeholder -->
+                        <div class="w-10 h-10 lg:ml-2"></div>
+        
+                        <!-- History button -->
+                        <div class="flex items-center justify-center w-10 h-10" style="margin-right: -0.625rem;">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="shrink-0 icon-base" width="22" height="22" viewBox="0 0 24 24" aria-labelledby="icon" role="presentation" style="margin-bottom: 0px;"><g fill="currentColor" ><g ><path d="M12.01 6.01c-.55 0-1 .45-1 1V12a1 1 0 00.4.8l3 2.22a.985.985 0 001.39-.2.996.996 0 00-.21-1.4l-2.6-1.92V7.01c.02-.55-.43-1-.98-1z"></path><path d="M12.01 1.91c-5.33 0-9.69 4.16-10.05 9.4l-.29-.26a.997.997 0 10-1.34 1.48l1.97 1.79c.19.17.43.26.67.26s.48-.09.67-.26l1.97-1.79a.997.997 0 10-1.34-1.48l-.31.28c.34-4.14 3.82-7.41 8.05-7.41 4.46 0 8.08 3.63 8.08 8.09s-3.63 8.08-8.08 8.08c-2.18 0-4.22-.85-5.75-2.4a.996.996 0 10-1.42 1.4 10.02 10.02 0 007.17 2.99c5.56 0 10.08-4.52 10.08-10.08.01-5.56-4.52-10.09-10.08-10.09z"></path></g></g></svg>
+                        </div>
+                    </div>
+        
+                    <div v-cloak class="flex justify-end grow">
+                        <div id="retype-mobile-search-button"></div>
+                        <doc-search-desktop></doc-search-desktop>
+        
+                        <doc-theme-switch class="lg:ml-2"></doc-theme-switch>
+                        <doc-history></doc-history>
+                    </div>
+                </div>
+            </div>
+        </header>
+    
+    
+        <div id="retype-container" class="container relative flex bg-white">
+            <!-- Sidebar Skeleton -->
+            <div v-cloak class="fixed flex flex-col shrink-0 duration-300 ease-in-out bg-sidebar-left-bg border-sidebar-left-border sidebar top-20 w-75 border-r h-screen md:sticky transition-transform skeleton">
+            
+                <div class="flex items-center h-16 px-6">
+                    <input class="w-full h-8 px-3 py-2 transition-colors duration-200 ease-linear bg-filter-bg border border-filter-border rounded shadow-none text-sm focus:outline-none focus:border-filter-border-focus" type="text" placeholder="Filter">
+                </div>
+            
+                <div class="pl-6 mt-1 mb-4">
+                    <div class="w-32 h-3 mb-4 bg-skeleton-bg rounded-full loading"></div>
+                    <div class="w-48 h-3 mb-4 bg-skeleton-bg rounded-full loading"></div>
+                    <div class="w-40 h-3 mb-4 bg-skeleton-bg rounded-full loading"></div>
+                    <div class="w-32 h-3 mb-4 bg-skeleton-bg rounded-full loading"></div>
+                    <div class="w-48 h-3 mb-4 bg-skeleton-bg rounded-full loading"></div>
+                    <div class="w-40 h-3 mb-4 bg-skeleton-bg rounded-full loading"></div>
+                </div>
+            
+                <div class="shrink-0 mt-auto bg-transparent dark:border-base-border">
+                    <a class="flex items-center justify-center flex-nowrap h-16 text-gray-350 dark:text-dark-400 hover:text-gray-600 dark:hover:text-dark-300 transition-colors duration-150 ease-in docs-powered-by" target="_blank" href="https://retype.com/" rel="noopener">
+                        <span class="text-xs whitespace-nowrap">Powered by</span>
+                        <svg xmlns="http://www.w3.org/2000/svg" class="ml-2" fill="currentColor" width="96" height="20" overflow="visible"><path d="M0 0v20h13.59V0H0zm11.15 17.54H2.44V2.46h8.71v15.08zM15.8 20h2.44V4.67L15.8 2.22zM20.45 6.89V20h2.44V9.34z"/><g><path d="M40.16 8.44c0 1.49-.59 2.45-1.75 2.88l2.34 3.32h-2.53l-2.04-2.96h-1.43v2.96h-2.06V5.36h3.5c1.43 0 2.46.24 3.07.73s.9 1.27.9 2.35zm-2.48 1.1c.26-.23.38-.59.38-1.09 0-.5-.13-.84-.4-1.03s-.73-.28-1.39-.28h-1.54v2.75h1.5c.72 0 1.2-.12 1.45-.35zM51.56 5.36V7.2h-4.59v1.91h4.13v1.76h-4.13v1.92h4.74v1.83h-6.79V5.36h6.64zM60.09 7.15v7.48h-2.06V7.15h-2.61V5.36h7.28v1.79h-2.61zM70.81 14.64h-2.06v-3.66l-3.19-5.61h2.23l1.99 3.45 1.99-3.45H74l-3.19 5.61v3.66zM83.99 6.19c.65.55.97 1.4.97 2.55s-.33 1.98-1 2.51-1.68.8-3.04.8h-1.23v2.59h-2.06V5.36h3.26c1.42 0 2.45.28 3.1.83zm-1.51 3.65c.25-.28.37-.69.37-1.22s-.16-.92-.48-1.14c-.32-.23-.82-.34-1.5-.34H79.7v3.12h1.38c.68 0 1.15-.14 1.4-.42zM95.85 5.36V7.2h-4.59v1.91h4.13v1.76h-4.13v1.92H96v1.83h-6.79V5.36h6.64z"/></g></svg>
+                    </a>
+                </div>
+            </div>
+            
+            <!-- Sidebar component -->
+            <doc-sidebar v-cloak>
+                <template #sidebar-footer>
+                    <div class="shrink-0 mt-auto border-t md:bg-transparent md:border-none dark:border-base-border">
+            
+                        <div class="py-3 px-6 md:hidden border-b dark:border-base-border">
+                            <nav>
+                                <ul class="flex flex-wrap justify-center items-center">
+                                    <li class="mr-6">
+                                        <a class="block py-1 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-header-text font-header-text-weight hover:text-header-text-hover" href="https://retype.com/guides/getting-started/">Getting Started</a>
+                                    </li>
+            
+                                </ul>
+                            </nav>
+                        </div>
+            
+                        <a class="flex items-center justify-center flex-nowrap h-16 text-gray-350 dark:text-dark-400 hover:text-gray-600 dark:hover:text-dark-300 transition-colors duration-150 ease-in docs-powered-by" target="_blank" href="https://retype.com/" rel="noopener">
+                            <span class="text-xs whitespace-nowrap">Powered by</span>
+                            <svg xmlns="http://www.w3.org/2000/svg" class="ml-2" fill="currentColor" width="96" height="20" overflow="visible"><path d="M0 0v20h13.59V0H0zm11.15 17.54H2.44V2.46h8.71v15.08zM15.8 20h2.44V4.67L15.8 2.22zM20.45 6.89V20h2.44V9.34z"/><g><path d="M40.16 8.44c0 1.49-.59 2.45-1.75 2.88l2.34 3.32h-2.53l-2.04-2.96h-1.43v2.96h-2.06V5.36h3.5c1.43 0 2.46.24 3.07.73s.9 1.27.9 2.35zm-2.48 1.1c.26-.23.38-.59.38-1.09 0-.5-.13-.84-.4-1.03s-.73-.28-1.39-.28h-1.54v2.75h1.5c.72 0 1.2-.12 1.45-.35zM51.56 5.36V7.2h-4.59v1.91h4.13v1.76h-4.13v1.92h4.74v1.83h-6.79V5.36h6.64zM60.09 7.15v7.48h-2.06V7.15h-2.61V5.36h7.28v1.79h-2.61zM70.81 14.64h-2.06v-3.66l-3.19-5.61h2.23l1.99 3.45 1.99-3.45H74l-3.19 5.61v3.66zM83.99 6.19c.65.55.97 1.4.97 2.55s-.33 1.98-1 2.51-1.68.8-3.04.8h-1.23v2.59h-2.06V5.36h3.26c1.42 0 2.45.28 3.1.83zm-1.51 3.65c.25-.28.37-.69.37-1.22s-.16-.92-.48-1.14c-.32-.23-.82-.34-1.5-.34H79.7v3.12h1.38c.68 0 1.15-.14 1.4-.42zM95.85 5.36V7.2h-4.59v1.91h4.13v1.76h-4.13v1.92H96v1.83h-6.79V5.36h6.64z"/></g></svg>
+                        </a>
+                    </div>
+                </template>
+            </doc-sidebar>
+    
+            <div class="grow min-w-0 bg-body-bg">
+                <!-- Render "toolbar" template here on api pages --><!-- Render page content -->
+                <div class="flex">
+                    <div id="retype-main" class="min-w-0 p-4 grow md:px-16">
+                        <main class="relative pb-12 lg:pt-2">
+                            <div class="retype-markdown" id="retype-content">
+                                <!-- Rendered if sidebar right is enabled -->
+                                <div id="retype-sidebar-right-toggle"></div>
+                                <!-- Page content  -->
+<doc-anchor-target id="item-quality-rarity--modifiers-guide" class="break-words">
+    <h1>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#item-quality-rarity--modifiers-guide">#</doc-anchor-trigger>
+        <span>Item Quality, Rarity &amp; Modifiers Guide</span>
+    </h1>
+</doc-anchor-target>
+<p><span class="no-link inline-flex align-middle items-center justify-center font-medium leading-none whitespace-nowrap text-badge-info-text bg-badge-info border border-badge-info-border h-6 px-2 text-xs rounded-md">
+    <span>Path of Exile Style</span>
+</span> <span class="no-link inline-flex align-middle items-center justify-center font-medium leading-none whitespace-nowrap text-badge-success-text bg-badge-success border border-badge-success-border h-6 px-2 text-xs rounded-md">
+    <span>Advanced System</span>
+</span></p>
+<p>This server adds a Path-of-Exile–style item layer on top of normal Tibia/TFS items.</p>
+<p>Every eligible equipment item can have:</p>
+<ul>
+<li><strong>Quality</strong> (0–20): scales the item&#x27;s <em>base</em> stats</li>
+<li><strong>Rarity</strong> (Normal → Legendary): controls <strong>modifier capacity</strong></li>
+<li><strong>Modifiers</strong>: extra stats that change how your <strong>attacks</strong> and <strong>spells</strong> behave</li>
+</ul>
+<p>This guide explains what these mean, how they work, and how crafting currencies interact with them.</p>
+<hr>
+<doc-anchor-target id="1-eligibility">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#1-eligibility">#</doc-anchor-trigger>
+        <span>1) Eligibility</span>
+    </h2>
+</doc-anchor-target>
+<p>Not every item can roll these properties.</p>
+<p><strong>Eligible (typical examples):</strong></p>
+<ul>
+<li>Weapons (swords/axes/clubs/wands, etc.)</li>
+<li>Armor pieces</li>
+<li>Helmets/boots/legs/shields</li>
+<li>Rings/amulets (when supported)</li>
+</ul>
+<p><strong>Not eligible (typical examples):</strong></p>
+<ul>
+<li>Stackable items (e.g., runes, many consumables)</li>
+<li>&quot;Charged&quot; or special-use items</li>
+<li>Containers</li>
+<li>Ammo (excluded from quality scaling and usually excluded from properties)</li>
+</ul>
+<div class="flex mb-6">
+    <div class="shrink-0 w-1.5 rounded-tl-lg rounded-bl-lg bg-callout-primary"></div>
+    <div class="flex w-full py-4 border border-l-0 rounded-tr-lg rounded-br-lg doc-callout bg-callout-base-bg border-callout-base-border" role="alert">
+        <div class="flex items-center ml-4 h-7">
+            <svg xmlns="http://www.w3.org/2000/svg" class="mb-px text-callout-primary" width="22" height="22" viewBox="0 0 24 24" role="presentation">
+                <g fill="currentColor"><g>
+                    <path d="M12 1C5.93 1 1 5.93 1 12s4.93 11 11 11 11-4.93 11-11S18.07 1 12 1zm0 20c-4.96 0-9-4.04-9-9s4.04-9 9-9 9 4.04 9 9-4.04 9-9 9z"></path>
+                    <path d="M12 11c-.55 0-1 .45-1 1v4c0 .55.45 1 1 1s1-.45 1-1v-4c0-.55-.45-1-1-1zM12.01 7c-.56 0-1 .45-1 1s.45 1 1 1 1-.45 1-1-.45-1-1-1z"></path>
+                    <path fill="none" d="M0 0h24v24H0z"></path>
+                </g></g>
+            </svg>
+        </div>
+        <div class="pr-5 ml-3 w-full">
+            <h5>info &quot;Eligibility Note&quot;</h5>
+<p>If an item is not eligible, it simply won&#x27;t gain these properties.</p>
+        </div>
+    </div>
+</div>
+<hr>
+<doc-anchor-target id="2-quality-020">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#2-quality-020">#</doc-anchor-trigger>
+        <span>2) Quality (0–20)</span>
+    </h2>
+</doc-anchor-target>
+<p><strong>Quality increases an item&#x27;s base stats by a percentage.</strong>
+It does <strong>not</strong> change the item&#x27;s modifiers. Quality only scales what the item already &quot;is&quot; underneath.</p>
+<doc-anchor-target id="what-base-stats-includes">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#what-base-stats-includes">#</doc-anchor-trigger>
+        <span>What &quot;base stats&quot; includes</span>
+    </h3>
+</doc-anchor-target>
+<p>Depending on the item type, Quality can scale things like:</p>
+<ul>
+<li>Weapon <strong>Attack</strong> (physical and the native elemental portion)</li>
+<li><strong>Defense</strong> and <strong>extra defense</strong></li>
+<li><strong>Armor</strong></li>
+<li>Protection values (absorb/reflect)</li>
+<li>Hit chance</li>
+<li>Speed bonuses</li>
+<li>Stat/skill bonuses</li>
+<li>Regen gain amounts</li>
+</ul>
+<doc-anchor-target id="example-weapon">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#example-weapon">#</doc-anchor-trigger>
+        <span>Example (weapon)</span>
+    </h3>
+</doc-anchor-target>
+<p>A Serpent Sword normally shows:</p>
+<div class="codeblock-wrapper"><doc-codeblock>
+<pre translate="no" class="language-none"><code v-pre class="language-none">You see a serpent sword (Atk:18 physical + 8 earth, Def:15 +1).
+Quality: 0</code></pre>
+</doc-codeblock></div>
+<p>At <strong>Quality 20</strong> (20%):</p>
+<ul>
+<li>Physical: 18 → 22</li>
+<li>Earth: 8 → 10</li>
+<li>Def: 15 → 18</li>
+<li>ExtraDef: +1 stays +1 (scaled independently, rounding applies)</li>
+</ul>
+<p>So you&#x27;d see:</p>
+<div class="codeblock-wrapper"><doc-codeblock>
+<pre translate="no" class="language-none"><code v-pre class="language-none">You see a serpent sword (Atk:22 physical + 10 earth, Def:18 +1).
+Quality: 20</code></pre>
+</doc-codeblock></div>
+<doc-anchor-target id="rounding-rule-important">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#rounding-rule-important">#</doc-anchor-trigger>
+        <span>Rounding rule (important)</span>
+    </h3>
+</doc-anchor-target>
+<div class="flex mb-6">
+    <div class="shrink-0 w-1.5 rounded-tl-lg rounded-bl-lg bg-callout-primary"></div>
+    <div class="flex w-full py-4 border border-l-0 rounded-tr-lg rounded-br-lg doc-callout bg-callout-base-bg border-callout-base-border" role="alert">
+        <div class="flex items-center ml-4 h-7">
+            <svg xmlns="http://www.w3.org/2000/svg" class="mb-px text-callout-primary" width="22" height="22" viewBox="0 0 24 24" role="presentation">
+                <g fill="currentColor"><g>
+                    <path d="M12 1C5.93 1 1 5.93 1 12s4.93 11 11 11 11-4.93 11-11S18.07 1 12 1zm0 20c-4.96 0-9-4.04-9-9s4.04-9 9-9 9 4.04 9 9-4.04 9-9 9z"></path>
+                    <path d="M12 11c-.55 0-1 .45-1 1v4c0 .55.45 1 1 1s1-.45 1-1v-4c0-.55-.45-1-1-1zM12.01 7c-.56 0-1 .45-1 1s.45 1 1 1 1-.45 1-1-.45-1-1-1z"></path>
+                    <path fill="none" d="M0 0h24v24H0z"></path>
+                </g></g>
+            </svg>
+        </div>
+        <div class="pr-5 ml-3 w-full">
+            <h5>warning &quot;Important Rounding Rule&quot;</h5>
+<p>Quality scaling always moves values in the &quot;stronger&quot; direction:</p>
+<ul>
+<li><strong>Positive values</strong> increase using half-up rounding.</li>
+<li><strong>Negative values</strong> move <strong>toward 0</strong> (less negative), never further away.</li>
+</ul>
+        </div>
+    </div>
+</div>
+<p><strong>Example:</strong></p>
+<ul>
+<li>Base <code v-pre>-5</code> with Quality 20% → <code v-pre>-4</code> (not <code v-pre>-6</code>)</li>
+</ul>
+<hr>
+<doc-anchor-target id="3-rarity-and-modifier-capacity">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#3-rarity-and-modifier-capacity">#</doc-anchor-trigger>
+        <span>3) Rarity and Modifier Capacity</span>
+    </h2>
+</doc-anchor-target>
+<p>Rarity is primarily a <strong>modifier capacity tier</strong>.</p>
+<div class="table-wrapper scrollbar overflow-hidden">
+<table class="comfortable">
+<thead>
+<tr>
+<th>Rarity</th>
+<th style="text-align: right;">Modifier Capacity</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Normal</strong></td>
+<td style="text-align: right;">0</td>
+</tr>
+<tr>
+<td><strong>Uncommon</strong></td>
+<td style="text-align: right;">1</td>
+</tr>
+<tr>
+<td><strong>Magic</strong></td>
+<td style="text-align: right;">2</td>
+</tr>
+<tr>
+<td><strong>Rare</strong></td>
+<td style="text-align: right;">3</td>
+</tr>
+<tr>
+<td><strong>Epic</strong></td>
+<td style="text-align: right;">4</td>
+</tr>
+<tr>
+<td><strong>Legendary</strong></td>
+<td style="text-align: right;">5</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="flex mb-6">
+    <div class="shrink-0 w-1.5 rounded-tl-lg rounded-bl-lg bg-callout-primary"></div>
+    <div class="flex w-full py-4 border border-l-0 rounded-tr-lg rounded-br-lg doc-callout bg-callout-base-bg border-callout-base-border" role="alert">
+        <div class="flex items-center ml-4 h-7">
+            <svg xmlns="http://www.w3.org/2000/svg" class="mb-px text-callout-primary" width="22" height="22" viewBox="0 0 24 24" role="presentation">
+                <g fill="currentColor"><g>
+                    <path d="M12 1C5.93 1 1 5.93 1 12s4.93 11 11 11 11-4.93 11-11S18.07 1 12 1zm0 20c-4.96 0-9-4.04-9-9s4.04-9 9-9 9 4.04 9 9-4.04 9-9 9z"></path>
+                    <path d="M12 11c-.55 0-1 .45-1 1v4c0 .55.45 1 1 1s1-.45 1-1v-4c0-.55-.45-1-1-1zM12.01 7c-.56 0-1 .45-1 1s.45 1 1 1 1-.45 1-1-.45-1-1-1z"></path>
+                    <path fill="none" d="M0 0h24v24H0z"></path>
+                </g></g>
+            </svg>
+        </div>
+        <div class="pr-5 ml-3 w-full">
+            <h5>tip &quot;Key Rule&quot;</h5>
+<p>You can&#x27;t have more modifiers than your rarity allows.</p>
+        </div>
+    </div>
+</div>
+<hr>
+<doc-anchor-target id="4-modifiers">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#4-modifiers">#</doc-anchor-trigger>
+        <span>4) Modifiers</span>
+    </h2>
+</doc-anchor-target>
+<p>Modifiers are extra properties on top of the base item. They come in two main shapes:</p>
+<doc-anchor-target id="a-flat-modifiers">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#a-flat-modifiers">#</doc-anchor-trigger>
+        <span>A) Flat modifiers</span>
+    </h3>
+</doc-anchor-target>
+<p>These add a fixed amount.</p>
+<p><strong>Examples:</strong></p>
+<ul>
+<li><code v-pre>+10 fire attack damage</code></li>
+<li><code v-pre>+10 fire spell damage</code></li>
+<li><code v-pre>+25 max health</code></li>
+</ul>
+<doc-anchor-target id="b-percent-modifiers">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#b-percent-modifiers">#</doc-anchor-trigger>
+        <span>B) Percent modifiers</span>
+    </h3>
+</doc-anchor-target>
+<p>These scale an existing base.</p>
+<p><strong>Examples:</strong></p>
+<ul>
+<li><code v-pre>+10% fire damage</code></li>
+<li><code v-pre>+12% physical damage</code></li>
+</ul>
+<div class="flex mb-6">
+    <div class="shrink-0 w-1.5 rounded-tl-lg rounded-bl-lg bg-callout-primary"></div>
+    <div class="flex w-full py-4 border border-l-0 rounded-tr-lg rounded-br-lg doc-callout bg-callout-base-bg border-callout-base-border" role="alert">
+        <div class="flex items-center ml-4 h-7">
+            <svg xmlns="http://www.w3.org/2000/svg" class="mb-px text-callout-primary" width="22" height="22" viewBox="0 0 24 24" role="presentation">
+                <g fill="currentColor"><g>
+                    <path d="M12 1C5.93 1 1 5.93 1 12s4.93 11 11 11 11-4.93 11-11S18.07 1 12 1zm0 20c-4.96 0-9-4.04-9-9s4.04-9 9-9 9 4.04 9 9-4.04 9-9 9z"></path>
+                    <path d="M12 11c-.55 0-1 .45-1 1v4c0 .55.45 1 1 1s1-.45 1-1v-4c0-.55-.45-1-1-1zM12.01 7c-.56 0-1 .45-1 1s.45 1 1 1 1-.45 1-1-.45-1-1-1z"></path>
+                    <path fill="none" d="M0 0h24v24H0z"></path>
+                </g></g>
+            </svg>
+        </div>
+        <div class="pr-5 ml-3 w-full">
+            <h5>note &quot;Percent Modifier Behavior&quot;</h5>
+<p>Percent modifiers scale a base that includes the item&#x27;s <em>native/base contribution</em> (not only &quot;other modifiers&quot;).</p>
+        </div>
+    </div>
+</div>
+<hr>
+<doc-anchor-target id="5-damage-sources-attacks-vs-spells">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#5-damage-sources-attacks-vs-spells">#</doc-anchor-trigger>
+        <span>5) Damage Sources: Attacks vs Spells</span>
+    </h2>
+</doc-anchor-target>
+<p>Modifiers can apply differently depending on whether the damage comes from an <strong>Attack</strong> or a <strong>Spell</strong>.</p>
+<doc-anchor-target id="what-counts-as-an-attack">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#what-counts-as-an-attack">#</doc-anchor-trigger>
+        <span>What counts as an Attack?</span>
+    </h3>
+</doc-anchor-target>
+<p>An <strong>Attack</strong> is a weapon-driven hit:</p>
+<ul>
+<li>sword/axe/club melee swings</li>
+<li>wand hits (their on-hit element is still an &quot;attack source&quot;)</li>
+<li>distance attacks (when supported)</li>
+</ul>
+<doc-anchor-target id="what-counts-as-a-spell">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#what-counts-as-a-spell">#</doc-anchor-trigger>
+        <span>What counts as a Spell?</span>
+    </h3>
+</doc-anchor-target>
+<p>A <strong>Spell</strong> is something you cast, like:</p>
+<ul>
+<li><code v-pre>exori</code></li>
+<li><code v-pre>exori hur</code></li>
+<li>rune-like spell effects (if treated as spells)</li>
+</ul>
+<hr>
+<doc-anchor-target id="6-elemental-components-and-creating-damage-types">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#6-elemental-components-and-creating-damage-types">#</doc-anchor-trigger>
+        <span>6) Elemental components and &quot;creating&quot; damage types</span>
+    </h2>
+</doc-anchor-target>
+<p>A hit can have multiple elemental components (physical, fire, ice, energy, etc.).</p>
+<doc-anchor-target id="flat-elemental-adds-can-create-a-component">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#flat-elemental-adds-can-create-a-component">#</doc-anchor-trigger>
+        <span>Flat elemental adds can create a component</span>
+    </h3>
+</doc-anchor-target>
+<p>If a modifier says it adds an element, and the hit does <strong>not</strong> already have that element component:</p>
+<ul>
+<li>The element component is <strong>created</strong>, <strong>as long as the modifier matches the hit&#x27;s source type</strong> (attack vs spell).</li>
+</ul>
+<p><strong>Example:</strong></p>
+<ul>
+<li><code v-pre>+10 fire attack damage</code> on a pure physical sword hit:
+<ul>
+<li>creates a <strong>fire component</strong> and adds <strong>+10 fire</strong> to it</li>
+</ul>
+</li>
+</ul>
+<p><strong>Example:</strong></p>
+<ul>
+<li>A wand that normally deals <strong>energy</strong> (attack source)</li>
+<li>Add <code v-pre>+10 fire attack damage</code>
+<ul>
+<li>the hit keeps its <strong>energy</strong> component</li>
+<li>and gains a new <strong>fire</strong> component (+10)</li>
+</ul>
+</li>
+</ul>
+<doc-anchor-target id="percent-elemental-modifiers-apply-to-both-sources-unless-stated-otherwise">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#percent-elemental-modifiers-apply-to-both-sources-unless-stated-otherwise">#</doc-anchor-trigger>
+        <span>Percent elemental modifiers apply to both sources (unless stated otherwise)</span>
+    </h3>
+</doc-anchor-target>
+<ul>
+<li><code v-pre>+10% fire damage</code> applies to <strong>fire damage from attacks and spells</strong>.</li>
+</ul>
+<hr>
+<doc-anchor-target id="7-modifier-wording-examples-fire">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#7-modifier-wording-examples-fire">#</doc-anchor-trigger>
+        <span>7) Modifier wording examples (fire)</span>
+    </h2>
+</doc-anchor-target>
+<doc-anchor-target id="10-fire-attack-damage">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#10-fire-attack-damage">#</doc-anchor-trigger>
+        <span><code v-pre>+10 fire attack damage</code></span>
+    </h3>
+</doc-anchor-target>
+<ul>
+<li>Applies only to <strong>attack hits</strong> (weapon-based hits).</li>
+<li>Adds +10 to the hit&#x27;s <strong>fire</strong> component.</li>
+<li>If the hit has no fire component, it <strong>creates one</strong>.</li>
+</ul>
+<p><strong>Example:</strong> Wand of Vortex (base energy hit)
+Result: <strong>energy base</strong> + <strong>new fire component</strong></p>
+<doc-anchor-target id="10-fire-spell-damage">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#10-fire-spell-damage">#</doc-anchor-trigger>
+        <span><code v-pre>+10 fire spell damage</code></span>
+    </h3>
+</doc-anchor-target>
+<ul>
+<li>Applies only to <strong>spell hits</strong> (casted spells).</li>
+<li>Adds +10 to the spell&#x27;s <strong>fire</strong> component.</li>
+<li>If the spell has no fire component, it <strong>creates one</strong>.</li>
+</ul>
+<p><strong>Example:</strong> <code v-pre>exori hur</code> that normally deals physical
+Result: <strong>physical base</strong> + <strong>new fire component</strong></p>
+<doc-anchor-target id="10-fire-damage">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#10-fire-damage">#</doc-anchor-trigger>
+        <span><code v-pre>+10% fire damage</code></span>
+    </h3>
+</doc-anchor-target>
+<ul>
+<li>Applies to <strong>all fire damage</strong>, regardless of source:
+<ul>
+<li>attack fire components</li>
+<li>spell fire components</li>
+</ul>
+</li>
+<li>Scales the total fire base (native + flat adds).</li>
+</ul>
+<hr>
+<doc-anchor-target id="8-crafting-currencies-what-they-do">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#8-crafting-currencies-what-they-do">#</doc-anchor-trigger>
+        <span>8) Crafting currencies (what they do)</span>
+    </h2>
+</doc-anchor-target>
+<p>These currencies mutate <strong>rarity</strong>, <strong>modifiers</strong>, and <strong>quality</strong> (when allowed by item eligibility).</p>
+<div class="flex mb-6">
+    <div class="shrink-0 w-1.5 rounded-tl-lg rounded-bl-lg bg-callout-primary"></div>
+    <div class="flex w-full py-4 border border-l-0 rounded-tr-lg rounded-br-lg doc-callout bg-callout-base-bg border-callout-base-border" role="alert">
+        <div class="flex items-center ml-4 h-7">
+            <svg xmlns="http://www.w3.org/2000/svg" class="mb-px text-callout-primary" width="22" height="22" viewBox="0 0 24 24" role="presentation">
+                <g fill="currentColor"><g>
+                    <path d="M12 1C5.93 1 1 5.93 1 12s4.93 11 11 11 11-4.93 11-11S18.07 1 12 1zm0 20c-4.96 0-9-4.04-9-9s4.04-9 9-9 9 4.04 9 9-4.04 9-9 9z"></path>
+                    <path d="M12 11c-.55 0-1 .45-1 1v4c0 .55.45 1 1 1s1-.45 1-1v-4c0-.55-.45-1-1-1zM12.01 7c-.56 0-1 .45-1 1s.45 1 1 1 1-.45 1-1-.45-1-1-1z"></path>
+                    <path fill="none" d="M0 0h24v24H0z"></path>
+                </g></g>
+            </svg>
+        </div>
+        <div class="pr-5 ml-3 w-full">
+            <h5>danger &quot;Important Restriction&quot;</h5>
+<p>You can only change Quality/Rarity/Modifiers while the item is <strong>NOT equipped</strong>.</p>
+        </div>
+    </div>
+</div>
+<doc-anchor-target id="currency-catalogue">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#currency-catalogue">#</doc-anchor-trigger>
+        <span>Currency catalogue</span>
+    </h3>
+</doc-anchor-target>
+<div class="table-wrapper scrollbar overflow-hidden">
+<table class="comfortable">
+<thead>
+<tr>
+<th>Currency</th>
+<th>Typical outcome</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Orb of Transmutation</strong></td>
+<td>Normal → Magic (rolls up to Magic capacity)</td>
+</tr>
+<tr>
+<td><strong>Orb of Alteration</strong></td>
+<td>Rerolls modifiers (within current rarity capacity)</td>
+</tr>
+<tr>
+<td><strong>Orb of Augmentation</strong></td>
+<td>Adds 1 new modifier (if capacity allows)</td>
+</tr>
+<tr>
+<td><strong>Orb of Regal</strong></td>
+<td>Magic → Rare (+1 modifier)</td>
+</tr>
+<tr>
+<td><strong>Orb of Exalted</strong></td>
+<td>Adds 1 new modifier and may increase rarity tier (if rules allow)</td>
+</tr>
+<tr>
+<td><strong>Orb of Chaos</strong></td>
+<td>Rerolls a rare item&#x27;s modifiers</td>
+</tr>
+<tr>
+<td><strong>Divine Orb</strong></td>
+<td>Rerolls modifier values (keeps the same modifier IDs)</td>
+</tr>
+<tr>
+<td><strong>Orb of Annulment</strong></td>
+<td>Removes 1 modifier</td>
+</tr>
+<tr>
+<td><strong>Orb of Scouring</strong></td>
+<td>Removes all modifiers (and normalizes item state per rules)</td>
+</tr>
+<tr>
+<td><strong>Orb of Chance</strong></td>
+<td>Random rarity outcome (rule-based)</td>
+</tr>
+<tr>
+<td><strong>Orb of Alchemy</strong></td>
+<td>Normal → Rare (rolls up to Rare capacity)</td>
+</tr>
+<tr>
+<td><strong>Quality currency</strong></td>
+<td>Increases Quality up to the cap (0–20)</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="flex mb-6">
+    <div class="shrink-0 w-1.5 rounded-tl-lg rounded-bl-lg bg-callout-primary"></div>
+    <div class="flex w-full py-4 border border-l-0 rounded-tr-lg rounded-br-lg doc-callout bg-callout-base-bg border-callout-base-border" role="alert">
+        <div class="flex items-center ml-4 h-7">
+            <svg xmlns="http://www.w3.org/2000/svg" class="mb-px text-callout-primary" width="22" height="22" viewBox="0 0 24 24" role="presentation">
+                <g fill="currentColor"><g>
+                    <path d="M12 1C5.93 1 1 5.93 1 12s4.93 11 11 11 11-4.93 11-11S18.07 1 12 1zm0 20c-4.96 0-9-4.04-9-9s4.04-9 9-9 9 4.04 9 9-4.04 9-9 9z"></path>
+                    <path d="M12 11c-.55 0-1 .45-1 1v4c0 .55.45 1 1 1s1-.45 1-1v-4c0-.55-.45-1-1-1zM12.01 7c-.56 0-1 .45-1 1s.45 1 1 1 1-.45 1-1-.45-1-1-1z"></path>
+                    <path fill="none" d="M0 0h24v24H0z"></path>
+                </g></g>
+            </svg>
+        </div>
+        <div class="pr-5 ml-3 w-full">
+            <h5>note &quot;Server Tuning&quot;</h5>
+<p>Exact drop rates and some rule details are server-tuned.</p>
+        </div>
+    </div>
+</div>
+<hr>
+<doc-anchor-target id="9-rules-and-safeguards">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#9-rules-and-safeguards">#</doc-anchor-trigger>
+        <span>9) Rules and safeguards</span>
+    </h2>
+</doc-anchor-target>
+<doc-anchor-target id="no-mutation-while-equipped">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#no-mutation-while-equipped">#</doc-anchor-trigger>
+        <span>&quot;No mutation while equipped&quot;</span>
+    </h3>
+</doc-anchor-target>
+<p>Quality, rarity, and modifier changes are blocked if the item is in a real equipment slot.</p>
+<ul>
+<li>If it&#x27;s equipped: the currency/action <strong>fails</strong>.</li>
+<li>Unequip it first, then try again.</li>
+</ul>
+<doc-anchor-target id="quality-and-modifiers-are-independent">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#quality-and-modifiers-are-independent">#</doc-anchor-trigger>
+        <span>Quality and Modifiers are independent</span>
+    </h3>
+</doc-anchor-target>
+<ul>
+<li><strong>Quality</strong> scales base stats.</li>
+<li><strong>Modifiers</strong> add or scale extra effects.</li>
+<li>Quality does <strong>not</strong> multiply modifier values.</li>
+</ul>
+<hr>
+<doc-anchor-target id="10-quick-examples">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#10-quick-examples">#</doc-anchor-trigger>
+        <span>10) Quick examples</span>
+    </h2>
+</doc-anchor-target>
+<doc-anchor-target id="example-a-quality-scaling-serpent-sword">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#example-a-quality-scaling-serpent-sword">#</doc-anchor-trigger>
+        <span>Example A: Quality scaling (Serpent Sword)</span>
+    </h3>
+</doc-anchor-target>
+<ul>
+<li>Base: <code v-pre>Atk:18 physical + 8 earth</code></li>
+<li>Quality 20 → <code v-pre>Atk:22 physical + 10 earth</code></li>
+</ul>
+<doc-anchor-target id="example-b-element-creation-attack">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#example-b-element-creation-attack">#</doc-anchor-trigger>
+        <span>Example B: Element creation (attack)</span>
+    </h3>
+</doc-anchor-target>
+<p>A physical sword hit with <code v-pre>+10 fire attack damage</code>:</p>
+<ul>
+<li>Physical remains</li>
+<li>Fire component is created: <code v-pre>+10 fire</code></li>
+</ul>
+<doc-anchor-target id="example-c-spell-vs-attack">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#example-c-spell-vs-attack">#</doc-anchor-trigger>
+        <span>Example C: Spell vs attack</span>
+    </h3>
+</doc-anchor-target>
+<ul>
+<li><code v-pre>+10 fire spell damage</code> affects <code v-pre>exori</code> casts, not sword swings</li>
+<li><code v-pre>+10 fire attack damage</code> affects sword swings, not <code v-pre>exori</code></li>
+<li><code v-pre>+10% fire damage</code> affects both (any fire component)</li>
+</ul>
+
+                                
+                                <!-- Required only on API pages -->
+                                <doc-toolbar-member-filter-no-results></doc-toolbar-member-filter-no-results>
+                            </div>
+                            <footer id="retype-content-footer" class="clear-both">
+                            
+                                <nav id="retype-nextprev" class="print:hidden flex mt-14">
+                                    <div class="w-1/2">
+                                        <a class="px-5 py-4 h-full flex items-center break-normal font-medium text-body-link border border-base-border hover:border-base-border-hover rounded-l-lg transition-colors duration-150 relative hover:z-5" href="../../04-progression/">
+                                            <svg xmlns="http://www.w3.org/2000/svg" class="mr-3" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" overflow="visible"><path d="M19 11H7.41l5.29-5.29a.996.996 0 10-1.41-1.41l-7 7a1 1 0 000 1.42l7 7a1.024 1.024 0 001.42-.01.996.996 0 000-1.41L7.41 13H19c.55 0 1-.45 1-1s-.45-1-1-1z" /><path fill="none" d="M0 0h24v24H0z" /></svg>
+                                            <span>
+                                                <span class="block text-xs font-normal text-base-text-muted">Previous</span>
+                                                <span class="block mt-1">Game Features</span>
+                                            </span>
+                                        </a>
+                                    </div>
+                            
+                                    <div class="w-1/2">
+                                        <a class="px-5 py-4 -mx-px h-full flex items-center justify-end break-normal font-medium text-body-link border border-base-border hover:border-base-border-hover rounded-r-lg transition-colors duration-150 relative hover:z-5" href="../../faq/">
+                                            <span>
+                                                <span class="block text-xs font-normal text-right text-base-text-muted">Next</span>
+                                                <span class="block mt-1">FAQ</span>
+                                            </span>
+                                            <svg xmlns="http://www.w3.org/2000/svg" class="ml-3" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" overflow="visible"><path d="M19.92 12.38a1 1 0 00-.22-1.09l-7-7a.996.996 0 10-1.41 1.41l5.3 5.3H5c-.55 0-1 .45-1 1s.45 1 1 1h11.59l-5.29 5.29a.996.996 0 000 1.41c.19.2.44.3.7.3s.51-.1.71-.29l7-7c.09-.09.16-.21.21-.33z" /><path fill="none" d="M0 0h24v24H0z" /></svg>
+                                        </a>
+                                    </div>
+                                </nav>
+                            </footer>
+                        </main>
+                
+                        <div id="retype-page-footer" class="print:border-none border-t border-base-border pt-6 mb-8">
+                            <footer class="flex flex-wrap items-center justify-between print:justify-center">
+                                <div id="retype-footer-links" class="print:hidden">
+                                    <ul class="flex flex-wrap items-center text-sm">
+                                    </ul>
+                                </div>
+                                <div id="retype-copyright" class="print:justify-center py-2 text-footer-text font-footer-link-weight text-sm leading-relaxed"><p>© Copyright 2026. All rights reserved.</p></div>
+                            </footer>
+                        </div>
+                    </div>
+                
+                    <!-- Rendered if sidebar right is enabled -->
+                    <!-- Sidebar right skeleton-->
+                    <div v-cloak class="fixed top-0 bottom-0 right-0 translate-x-full bg-sidebar-right-bg border-sidebar-right-border lg:sticky lg:border-l lg:shrink-0 lg:pt-6 lg:transform-none sm:w-1/2 lg:w-64 lg:z-0 md:w-104 sidebar-right skeleton">
+                        <div class="pl-5">
+                            <div class="w-32 h-3 mb-4 bg-skeleton-bg rounded-full loading"></div>
+                            <div class="w-48 h-3 mb-4 bg-skeleton-bg rounded-full loading"></div>
+                            <div class="w-40 h-3 mb-4 bg-skeleton-bg rounded-full loading"></div>
+                        </div>
+                    </div>
+                
+                    <!-- User should be able to hide sidebar right -->
+                    <doc-sidebar-right v-cloak></doc-sidebar-right>
+                </div>
+
+            </div>
+        </div>
+    
+        <doc-search-mobile></doc-search-mobile>
+        <doc-back-to-top></doc-back-to-top>
+    </div>
+
+
+    <div id="retype-overlay-target"></div>
+
+    <script data-cfasync="false">window.__DOCS__ = { "title": "Item Crafting", level: 2, icon: "file", hasPrism: false, hasMermaid: false, hasMath: false, tocDepth: 23 }</script>
+</body>
+</html>
