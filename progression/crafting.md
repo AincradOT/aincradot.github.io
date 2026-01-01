@@ -27,9 +27,8 @@ Not every item can roll these properties.
 **Eligible items:**
 
 * Weapons (swords/axes/clubs/wands, etc.)
+* Rings/amulets
 * Armor pieces
-* Helmets/boots/legs/shields
-* Rings/amulets (when supported)
 
 **Not eligible:**
 
@@ -185,7 +184,7 @@ An **Attack** is a weapon-driven hit:
 
 * Sword/axe/club melee swings
 * Wand hits (their on-hit element is still an "attack source")
-* Distance attacks (when supported)
+* Distance attacks
 
 
 ### Spells

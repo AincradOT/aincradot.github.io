@@ -12,7 +12,7 @@ Welcome to the official Aincrad anime-inspired progression MMO Wiki! This commun
 
 [!badge variant="primary" text="MMORPG"] [!badge variant="success" text="Closed Beta"]
 
-Aincrad is an anime-inspired progression MMO set within **the labyrinth**—a mysterious vertical realm of ever-changing Levels. Players form guilds of Pathfinders, regroup and trade in Plazas, and challenge each Level's Warden to unlock the next rise. The labyrinth reconfigures over time. Every season, Pathfinders race to push higher before the Shift begins and the routes rewrite themselves.
+Aincrad is an anime-inspired progression MMO set within **the tower** — a mysterious vertical labirynth of ever-changing levels. Players form guilds of Pathfinders, regroup and trade in Plazas, and challenge each Level's Warden to unlock the next rise. Every season begins with the shift—a seasonal update that introduces new levels, wardens, mechanics, and content as the labyrinth reconfigures.
 
 ## Explore Aincrad
 
