@@ -16,12 +16,10 @@ Welcome to Aincrad RPG! This section will guide you through everything you need 
 
 ## Quick Start Checklist
 
-- [ ] Download and install the Aincrad client
 - [ ] Create a new account
 - [ ] Create your first character
-- [ ] Complete the tutorial on Kindernia Island
-- [ ] Reach level 30 and choose your vocation
-- [ ] Travel to your first mainland city
+- [ ] Download and install the Aincrad client
+- [ ] Todo
 
 !!! tip "New Player Tip"
 Focus on completing the tutorial quests on Kindernia Island. These will give you essential equipment and teach you the game basics before you choose your vocation at level 30.
