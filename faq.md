@@ -10,7 +10,7 @@ order: 20
 
 ### What is Aincrad?
 
-Aincrad is a custom Tibia server based on protocol 10.98, featuring unique RPG elements like professions, rifts, and advanced progression systems beyond traditional leveling.
+Aincrad is a custom Tibia server based on protocol 10.98, featuring unique RPG elements like TFS vocations, rifts, and advanced progression systems beyond traditional leveling.
 
 ### Is Aincrad free to play?
 
@@ -22,9 +22,9 @@ Visit the [Getting Started](01-getting-started/installation.md) section for comp
 
 ## Gameplay Questions
 
-### How do I start a profession?
+### How do I choose my vocation?
 
-Speak with Elyotrope south of Mordragor to begin any profession. He will provide basic tools after completing his introductory quest.
+At level 30, you'll be prompted to choose your vocation: Knight, Paladin, Sorcerer, or Druid. This choice is permanent for that character, so choose based on your preferred playstyle.
 
 ### What is the Gear Score system?
 
@@ -36,7 +36,7 @@ Complete "The First Fragment" quest to unlock the Ancestral Rifts system. You'll
 
 ### When do World Bosses spawn?
 
-Each World Boss has a specific day and time of the week when it appears. Check the [World Bosses](05-features/world-bosses.md) page for the complete schedule.
+Each World Boss has a specific day and time of the week when it appears. Check the in-game announcements for the complete schedule.
 
 ## Technical Questions
 
@@ -46,7 +46,7 @@ Aincrad uses a custom client based on Tibia protocol 10.98.
 
 ### I'm experiencing lag/crashes. How can I fix this?
 
-Check the [Troubleshooting](01-getting-started/troubleshooting.md) page for common solutions to technical issues.
+Try restarting your client, checking your internet connection, or contacting support on Discord for assistance with technical issues.
 
 ### Can I play Aincrad on my Mac/Linux computer?
 

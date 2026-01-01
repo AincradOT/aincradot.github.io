@@ -12,7 +12,6 @@ Welcome to Aincrad RPG! This section will guide you through everything you need 
 ## First Steps
 
 - [Installation](installation.md) - Download and set up the Aincrad client
-- [Beginner's Guide](beginners-guide.md) - Essential tips for your first hours of gameplay
 
 ## Quick Start Checklist
 
@@ -27,7 +26,7 @@ Focus on completing the tutorial quests on Kindernia Island. These will give you
 
 ## Video Guide
 
-[!embed](https://www.youtube.com/embed/PLACEHOLDER)
+<!-- Video guide coming soon -->
 
 :::content-center
 [!button variant="success" icon="arrow-right" text="Installation Guide"](installation.md)

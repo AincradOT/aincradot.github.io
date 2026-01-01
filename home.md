@@ -12,7 +12,7 @@ Welcome to the official Aincrad RPG Wiki for version 1.1! This community-created
 
 [!badge variant="primary" text="RPG"] [!badge variant="success" text="v0.11.0"] [!badge variant="danger" text="Protocol 13.21+"]
 
-Aincrad is a custom Tibia server that transforms the traditional Tibia gameplay into a full-fledged RPG experience. With unique systems like Ancestral Rifts, custom professions, gear scores, prestige levels, and much more, Aincrad offers a fresh take on the classic MMORPG formula.
+Aincrad is a custom Tibia server that transforms the traditional Tibia gameplay into a full-fledged RPG experience. With unique systems like Ancestral Rifts, TFS vocations, gear scores, prestige levels, and much more, Aincrad offers a fresh take on the classic MMORPG formula.
 
 ## Getting Started
 
@@ -21,8 +21,8 @@ New to Aincrad? Check out these resources to begin your adventure:
 [!ref icon="rocket" text="Getting Started"](01-getting-started/index.md)
 Your first steps into Aincrad: installation, character creation, and basic controls.
 
-[!ref icon="tools" text="Professions"](03-professions/index.md)
-Everything about gathering professions: mining, herbalism, woodcutting, and skinning.
+[!ref icon="shield" text="Vocations"](03-professions/index.md)
+Learn about the four TFS vocations: Knight, Paladin, Sorcerer, and Druid.
 
 ## About the Aincrad Wiki
 
@@ -36,7 +36,7 @@ Our goal is to provide accurate, up-to-date information about all aspects of Ain
 
 This wiki is an open project that welcomes contributions from all players. If you'd like to help improve the wiki:
 
-1. Visit our [GitHub Repository](https://github.com/your-github-username/Aincrad-wiki)
+1. Visit our [GitHub Repository](https://github.com/aincradot/aincradot.github.io)
 2. Create a fork of the repository
 3. Make your changes and submit a pull request
 4. Wiki maintainers will review and merge your contributions

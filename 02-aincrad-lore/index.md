@@ -20,6 +20,3 @@ Aincrad is set in a world where magical energies flow freely through ancient ley
 ## Key Characters
 
 ...
-
-[!ref icon="book" text="Read About the Ancestral Awakening"](ancestral-awakening.md)
-[!ref icon="people" text="Learn About the Factions"](factions.md)
