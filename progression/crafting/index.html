@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.11.0.820558424087">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.11.0.820558843892">
 
     <!-- See retype.com -->
     <meta name="generator" content="Retype 3.11.0">
@@ -30,11 +30,11 @@
 
     <script data-cfasync="false">(function(){var cl=document.documentElement.classList,ls=localStorage.getItem("retype_scheme"),hd=cl.contains("dark"),hl=cl.contains("light"),wm=window.matchMedia&&window.matchMedia("(prefers-color-scheme: dark)").matches;if(ls==="dark"||(!ls&&wm&&!hd&&!hl)){cl.remove("light");cl.add("dark")}else if(ls==="light"||(!ls&&!wm&&!hd&&!hl)){cl.remove("dark");cl.add("light")}})();</script>
 
-    <link href="../../resources/css/retype.css?v=3.11.0.820558424087" rel="stylesheet">
+    <link href="../../resources/css/retype.css?v=3.11.0.820558843892" rel="stylesheet">
 
-    <script data-cfasync="false" src="../../resources/js/config.js?v=3.11.0.820558424087" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="../../resources/js/config.js?v=3.11.0.820558843892" data-turbo-eval="false" defer></script>
     <script data-cfasync="false" src="../../resources/js/retype.js?v=3.11.0" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" data-cfasync="false" src="../../resources/js/lunr.js?v=3.11.0.820558424087" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" data-cfasync="false" src="../../resources/js/lunr.js?v=3.11.0.820558843892" data-turbo-eval="false" defer></script>
 </head>
 <body>
     <div id="retype-app" class="relative text-base antialiased text-base-text bg-base-bg font-body">
@@ -391,10 +391,10 @@
 <li><code v-pre>+12% physical damage</code></li>
 </ul>
 <div class="flex mb-6">
-    <div class="shrink-0 w-1.5 rounded-tl-lg rounded-bl-lg bg-callout-primary"></div>
+    <div class="shrink-0 w-1.5 rounded-tl-lg rounded-bl-lg bg-callout-info"></div>
     <div class="flex w-full py-4 border border-l-0 rounded-tr-lg rounded-br-lg doc-callout bg-callout-base-bg border-callout-base-border" role="alert">
         <div class="flex items-center ml-4 h-7">
-            <svg xmlns="http://www.w3.org/2000/svg" class="mb-px text-callout-primary" width="22" height="22" viewBox="0 0 24 24" role="presentation">
+            <svg xmlns="http://www.w3.org/2000/svg" class="mb-px text-callout-info" width="22" height="22" viewBox="0 0 24 24" role="presentation">
                 <g fill="currentColor"><g>
                     <path d="M12 1C5.93 1 1 5.93 1 12s4.93 11 11 11 11-4.93 11-11S18.07 1 12 1zm0 20c-4.96 0-9-4.04-9-9s4.04-9 9-9 9 4.04 9 9-4.04 9-9 9z"></path>
                     <path d="M12 11c-.55 0-1 .45-1 1v4c0 .55.45 1 1 1s1-.45 1-1v-4c0-.55-.45-1-1-1zM12.01 7c-.56 0-1 .45-1 1s.45 1 1 1 1-.45 1-1-.45-1-1-1z"></path>
@@ -403,11 +403,124 @@
             </svg>
         </div>
         <div class="pr-5 ml-3 w-full">
-            <h5>note Behavior</h5>
+            <h5>Behavior</h5>
 <p>Percent modifiers scale a base that includes the item&#x27;s <em>native/base contribution</em> (not only &quot;other modifiers&quot;).</p>
         </div>
     </div>
 </div>
+<doc-anchor-target id="available-modifier-types">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#available-modifier-types">#</doc-anchor-trigger>
+        <span>Available Modifier Types</span>
+    </h3>
+</doc-anchor-target>
+<p>Here are some examples of the modifiers available in the system:</p>
+<div class="table-wrapper scrollbar overflow-hidden">
+<table class="comfortable">
+<thead>
+<tr>
+<th>Category</th>
+<th>Modifier</th>
+<th>Type</th>
+<th>Example</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Elemental Damage</strong></td>
+<td>Fire/ice/energy/earth/holy/death/physical</td>
+<td>Flat</td>
+<td><code v-pre>+10 fire attack damage</code></td>
+</tr>
+<tr>
+<td><strong>Damage Increase</strong></td>
+<td>Elemental damage boost</td>
+<td>Percentage</td>
+<td><code v-pre>+15% fire damage</code></td>
+</tr>
+<tr>
+<td><strong>Resistance</strong></td>
+<td>Elemental absorption</td>
+<td>Percentage</td>
+<td><code v-pre>+20% fire absorb</code></td>
+</tr>
+<tr>
+<td><strong>Resistance</strong></td>
+<td>Elemental reduction</td>
+<td>Flat</td>
+<td><code v-pre>+15 fire resistance</code></td>
+</tr>
+<tr>
+<td><strong>Damage Over Time</strong></td>
+<td>Elemental DoT</td>
+<td>Flat</td>
+<td><code v-pre>+8 fire damage over time</code></td>
+</tr>
+<tr>
+<td><strong>Stats</strong></td>
+<td>Health/Mana</td>
+<td>Flat</td>
+<td><code v-pre>+50 max health</code></td>
+</tr>
+<tr>
+<td><strong>Stats</strong></td>
+<td>Health/Mana</td>
+<td>Percentage</td>
+<td><code v-pre>+10% max mana</code></td>
+</tr>
+<tr>
+<td><strong>Critical</strong></td>
+<td>Critical chance</td>
+<td>Flat</td>
+<td><code v-pre>+5% critical chance</code></td>
+</tr>
+<tr>
+<td><strong>Critical</strong></td>
+<td>Critical damage</td>
+<td>Percentage</td>
+<td><code v-pre>+25% critical damage</code></td>
+</tr>
+<tr>
+<td><strong>Recovery</strong></td>
+<td>Health/Mana regen</td>
+<td>Flat</td>
+<td><code v-pre>+3 health per second</code></td>
+</tr>
+<tr>
+<td><strong>Leech</strong></td>
+<td>Life/Mana leech</td>
+<td>Percentage</td>
+<td><code v-pre>+5% life leech</code></td>
+</tr>
+<tr>
+<td><strong>Attributes</strong></td>
+<td>Intelligence/Dexterity/Strength</td>
+<td>Flat</td>
+<td><code v-pre>+30 intelligence</code></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="flex mb-6">
+    <div class="shrink-0 w-1.5 rounded-tl-lg rounded-bl-lg bg-callout-info"></div>
+    <div class="flex w-full py-4 border border-l-0 rounded-tr-lg rounded-br-lg doc-callout bg-callout-base-bg border-callout-base-border" role="alert">
+        <div class="flex items-center ml-4 h-7">
+            <svg xmlns="http://www.w3.org/2000/svg" class="mb-px text-callout-info" width="22" height="22" viewBox="0 0 24 24" role="presentation">
+                <g fill="currentColor"><g>
+                    <path d="M12 1C5.93 1 1 5.93 1 12s4.93 11 11 11 11-4.93 11-11S18.07 1 12 1zm0 20c-4.96 0-9-4.04-9-9s4.04-9 9-9 9 4.04 9 9-4.04 9-9 9z"></path>
+                    <path d="M12 11c-.55 0-1 .45-1 1v4c0 .55.45 1 1 1s1-.45 1-1v-4c0-.55-.45-1-1-1zM12.01 7c-.56 0-1 .45-1 1s.45 1 1 1 1-.45 1-1-.45-1-1-1z"></path>
+                    <path fill="none" d="M0 0h24v24H0z"></path>
+                </g></g>
+            </svg>
+        </div>
+        <div class="pr-5 ml-3 w-full">
+            <h5>More Modifiers Available</h5>
+<p>This table shows a sample of available modifiers. The full system includes modifiers for all seven elements (energy, fire, ice, earth, holy, death, physical) across multiple categories. Modifier values scale with item tier/level.</p>
+        </div>
+    </div>
+</div>
+<p>&lt;｜tool▁call▁begin｜&gt;
+read_lints</p>
 <hr>
 <doc-anchor-target id="damage-sources-attacks-vs-spells">
     <h2>
@@ -625,10 +738,10 @@
 </table>
 </div>
 <div class="flex mb-6">
-    <div class="shrink-0 w-1.5 rounded-tl-lg rounded-bl-lg bg-callout-primary"></div>
+    <div class="shrink-0 w-1.5 rounded-tl-lg rounded-bl-lg bg-callout-info"></div>
     <div class="flex w-full py-4 border border-l-0 rounded-tr-lg rounded-br-lg doc-callout bg-callout-base-bg border-callout-base-border" role="alert">
         <div class="flex items-center ml-4 h-7">
-            <svg xmlns="http://www.w3.org/2000/svg" class="mb-px text-callout-primary" width="22" height="22" viewBox="0 0 24 24" role="presentation">
+            <svg xmlns="http://www.w3.org/2000/svg" class="mb-px text-callout-info" width="22" height="22" viewBox="0 0 24 24" role="presentation">
                 <g fill="currentColor"><g>
                     <path d="M12 1C5.93 1 1 5.93 1 12s4.93 11 11 11 11-4.93 11-11S18.07 1 12 1zm0 20c-4.96 0-9-4.04-9-9s4.04-9 9-9 9 4.04 9 9-4.04 9-9 9z"></path>
                     <path d="M12 11c-.55 0-1 .45-1 1v4c0 .55.45 1 1 1s1-.45 1-1v-4c0-.55-.45-1-1-1zM12.01 7c-.56 0-1 .45-1 1s.45 1 1 1 1-.45 1-1-.45-1-1-1z"></path>
@@ -637,7 +750,7 @@
             </svg>
         </div>
         <div class="pr-5 ml-3 w-full">
-            <h5>note Server Tuning</h5>
+            <h5>Server Tuning</h5>
 <p>Exact drop rates and some rule details are server-tuned.</p>
         </div>
     </div>
