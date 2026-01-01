@@ -65,10 +65,10 @@ You choose your vocation when creating your character. This is a permanent choic
 2. **Role preference** - Do you want to tank, deal damage, or support?
 3. **Group composition** - What does your team need?
 
-## Level 30 Milestone
+## Level 20 Milestone
 
-Upon reaching level 30, you'll receive:
-* A **vocation-specific key** that unlocks access to your first floor boss
+Upon reaching level 20, you'll receive:
+* A **vocation-specific starter kit** containing item upgrades and a promotion
 * **Directions** to locate the first floor boss
 
 !!! warning "First Floor Boss Caution"
