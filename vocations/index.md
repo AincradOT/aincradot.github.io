@@ -69,10 +69,10 @@ You choose your vocation when creating your character. This is a permanent choic
 
 Upon reaching level 20, you'll receive:
 * A **vocation-specific starter kit** containing item upgrades and a promotion
-* **Directions** to locate the first floor boss
+* **Directions** to locate the first Warden
 
-!!!danger First Floor Boss
-The first floor boss is a powerful enemy. Make sure you're well-equipped and consider forming a party before attempting to fight it. Preparation is key to success.
+!!!danger First Warden
+The first Warden is a powerful enemy. Make sure you're well-equipped and consider forming a party before attempting to fight it. Preparation is key to success.
 !!!
 
 !!!note Multiple Characters

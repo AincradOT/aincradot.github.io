@@ -6,25 +6,25 @@ order: 110
 
 # Aincrad RPG Wiki
 
-Welcome to the official Aincrad Tibia MMORPG Wiki! This community-created resource aims to help new and existing players navigate the rich world of Aincrad.
+Welcome to the official Aincrad anime-inspired progression MMO Wiki! This community-created resource aims to help new and existing players navigate the rich world of Aincrad.
 
 ## What is Aincrad?
 
 [!badge variant="primary" text="MMORPG"] [!badge variant="success" text="Closed Beta"]
 
-Aincrad is a custom Tibia server that transforms the traditional Tibia gameplay into a full-fledged RPG experience. With unique systems like Ancestral Rifts, Aincrad vocations, gear scores, prestige levels, and much more, Aincrad offers a fresh take on the classic MMORPG formula.
+Aincrad is an anime-inspired progression MMO set within **the labyrinth**—a mysterious vertical realm of ever-changing Levels. Players form guilds of Pathfinders, regroup and trade in Plazas, and challenge each Level's Warden to unlock the next rise. The labyrinth reconfigures over time. Every season, Pathfinders race to push higher before the Shift begins and the routes rewrite themselves.
 
 ## Explore Aincrad
 
 ### Aincrad Lore
 
 [!ref icon="book" text="Aincrad Lore & History"](aincrad-lore/index.md)
-Discover the world of Aincrad—the floating castle from Sword Art Online. Learn about the 100-floor tower, floor progression, and the elite players known as Clearers who push forward to clear new floors.
+Discover the labyrinth—a mysterious vertical realm of ever-changing Levels. Learn about Pathfinders, guilds, Plazas, Wardens, and the seasonal Shift that reshapes the realm.
 
 ### Getting Started
 
 [!ref icon="rocket" text="Getting Started Guide"](getting-started/index.md)
-Your first steps into Aincrad: download the launcher, create an account, choose your vocation, and begin your adventure. Complete tutorial quests and prepare for your first floor boss encounter.
+Your first steps into Aincrad: download the launcher, create an account, choose your vocation, and begin your adventure. Complete tutorial quests and prepare for your first Warden encounter.
 
 ### Vocations
 

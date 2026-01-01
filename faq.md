@@ -10,7 +10,7 @@ order: 20
 
 ### What is Aincrad?
 
-Aincrad is a custom Tibia server based on protocol 13.21, featuring unique RPG elements like Aincrad vocations, rifts, and advanced progression systems beyond traditional leveling.
+Aincrad is a custom Tibia server based on protocol 13.21, featuring unique RPG elements like Aincrad vocations and advanced progression systems beyond traditional leveling.
 
 ### Is Aincrad free to play?
 

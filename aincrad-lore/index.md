@@ -7,33 +7,38 @@ expanded: false
 
 # Aincrad Lore & History
 
-Welcome to Aincrad, the floating castle from Sword Art Online—a 100-floor tower where adventurers must fight their way to the top.
+Aincrad is an anime-inspired progression MMO set within **the labyrinth**—a mysterious vertical realm of ever-changing Levels inside the tower. Players form guilds of Pathfinders, regroup and trade in Plazas, and challenge each Level's Warden to unlock the next rise.
 
-## The World of Aincrad
+## The Tower and the Labyrinth
 
-Aincrad is a massive floating castle suspended in the sky, consisting of 100 distinct floors. Each floor represents a unique environment with its own challenges, monsters, and treasures. The tower was created as the setting for an epic MMORPG adventure.
+The game is set in an endless, seasonal, shifting labyrinth of Levels inside **the tower**. The labyrinth is a mysterious vertical realm where the very structure shifts and changes over time. This ever-changing environment presents unique challenges as routes and configurations rewrite themselves, making exploration and progression a dynamic experience.
 
-## Floor Progression
+## Level Progression
 
-Each floor of Aincrad presents unique challenges:
+Each Level of the labyrinth presents unique challenges and environments:
 
-* **Lower Floors (1-20):** Beginner areas with basic monsters and quests
-* **Mid Floors (21-50):** Increasing difficulty with stronger enemies
-* **Upper Floors (51-75):** Dangerous territories requiring skilled parties
-* **High Floors (76-99):** Elite areas with powerful bosses
-* **Floor 100:** The final challenge—the ultimate boss awaits
+* **Lower Levels (1-20):** Beginner areas with basic monsters and quests
+* **Mid Levels (21-50):** Increasing difficulty with stronger enemies
+* **Upper Levels (51-75):** Dangerous territories requiring skilled parties
+* **High Levels (76-99):** Elite areas with powerful bosses
+* **Level 100:** The final challenge—the ultimate Warden awaits
 
-## The Clearers
+## The Pathfinders
 
-Elite players who push forward to clear new floors are known as "Clearers." These brave adventurers face the most dangerous content, paving the way for others to progress.
+Players form **guilds of Pathfinders**—elite adventurers who push forward to unlock new Levels. These brave groups face the most dangerous content, racing against time to progress higher before the Shift begins.
 
-## Game Mechanics in Aincrad
+## The Shift
 
-* **Floor Bosses** - Each floor has a powerful boss that must be defeated
-* **Safe Zones** - Towns and cities are safe from PvP and monster attacks
-* **Unique Systems** - Ancestral Rifts, vocations, and crafting add depth to the Aincrad experience
-* **Progression** - Advance through floors by defeating bosses and completing challenges
+The labyrinth reconfigures over time. Every season, Pathfinders race to push higher before the Shift begins and the routes rewrite themselves. This seasonal reset creates urgency and competition as players work to establish progress before the realm reshapes.
+
+## Game Mechanics in the Labyrinth
+
+* **Wardens** - Each Level has a powerful boss that must be defeated to unlock the next rise
+* **Plazas** - Safe zones where players regroup, trade, and prepare for their next challenge
+* **Guilds** - Form groups of Pathfinders to tackle the most dangerous content together
+* **Unique Systems** - Vocations and crafting add depth to the labyrinth experience
+* **Progression** - Advance through Levels by defeating Wardens and completing challenges
 
 !!!tip Survival
-Form parties with other players. Teamwork makes clearing floors much easier and more efficient.
+Form guilds with other players. Teamwork makes progressing through Levels much easier and more efficient, especially when racing against the Shift.
 !!!

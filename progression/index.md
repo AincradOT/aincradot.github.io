@@ -5,9 +5,9 @@ order: 75
 expanded: false
 ---
 
-# Aincrad Game Features
+# Game Features
 
-Discover the unique gameplay systems and features that set Aincrad apart from other Tibia servers.
+Discover the unique gameplay systems and features that set this server apart from other Tibia servers.
 
 [!ref icon="shield" text="Item crafting"](crafting.md)
 [!ref icon="skull" text="Uber Monsters"](uber-monsters.md)
