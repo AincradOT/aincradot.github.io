@@ -13,7 +13,7 @@ This server adds a Path-of-Exile–style item layer on top of normal Tibia items
 Every eligible equipment item can have:
 
 * **Quality** (0–20): scales the item's *base* stats
-* **Rarity** (Normal → Legendary): controls **modifier capacity**
+* **Rarity** (Normal → Legendary): determined by the **number of modifiers** on the item
 * **Modifiers**: extra stats that change how your **attacks** and **spells** behave
 
 This guide explains what these mean, how they work, and how crafting currencies interact with them.
@@ -99,21 +99,21 @@ Quality scaling always moves values in the "stronger" direction:
 
 ---
 
-## Rarity and Modifier Capacity
+## Rarity and Modifiers
 
-Rarity determines how many modifiers an item can have.
+**Rarity is determined by the number of modifiers on an item.**
 
-| Rarity        | Modifier Capacity |
-| ------------- | ----------------: |
-| **Normal**    |                 0 |
-| **Uncommon**  |                 1 |
-| **Magic**     |                 2 |
-| **Rare**      |                 3 |
-| **Epic**      |                 4 |
-| **Legendary** |                 5 |
+| Modifier Count | Rarity        |
+| -------------- | ------------- |
+| 0              | **Normal**    |
+| 1              | **Uncommon**  |
+| 2              | **Magic**     |
+| 3              | **Rare**      |
+| 4              | **Epic**       |
+| 5              | **Legendary** |
 
 !!!tip Key Rule
-You can't have more modifiers than your rarity allows.
+When you add or remove modifiers, the item's rarity automatically updates to match the new modifier count.
 !!!
 
 ---
@@ -274,15 +274,15 @@ You can only change Quality/Rarity/Modifiers while the item is **NOT equipped**.
 | ---------------- | ----------------------------------------- | ------------------------- | --------------------------------- |
 | **Quality**      | +1 Quality (max 20), scales base stats    | Eligible, Quality < 20   | Improve base stats                |
 | **Transmutation** | Normal → Uncommon/Magic, 1-2 mods        | Normal only               | Upgrade white items               |
-| **Alteration**   | Rerolls all mods, keeps rarity            | Uncommon/Magic only       | Reroll bad mods                   |
+| **Alteration**   | Rerolls all mods, count can be 1 or 2     | Uncommon/Magic only       | Reroll bad mods                   |
 | **Augmentation** | +1 mod to Magic                            | Magic with 1 mod only     | Add second mod to Magic           |
 | **Chance**       | Normal → random tier                      | Normal only               | Gamble for high tiers             |
 | **Scouring**     | Removes all mods, resets to Normal        | Any item                  | Start fresh                       |
 | **Regal**        | Magic → Rare, +1 mod, keeps existing       | Magic only                | Upgrade to Rare                   |
 | **Alchemy**      | Normal → Rare, 3 mods                     | Normal only               | Fast path to Rare                 |
-| **Chaos**        | Rerolls mods and rarity, can upgrade      | 3+ mods (Rare+)           | Reroll everything                 |
+| **Chaos**        | Rerolls mods (count may change)          | 3+ mods (Rare+)           | Reroll everything                 |
 | **Annulment**    | Removes 1 random mod                       | Items with mods           | Remove bad mods                   |
-| **Exalted**      | +1 mod if capacity allows                 | Rare/Epic with open slots | Fill remaining slots              |
+| **Exalted**      | +1 mod (up to max 5)                      | Rare/Epic with < 5 mods   | Add more modifiers                |
 | **Divination**   | Rerolls mod values, keeps mod types        | Items with mods           | Improve values on good mods       |
 
 !!!info Server Tuning
