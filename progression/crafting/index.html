@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.11.0.820558843892">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.11.0.820559484056">
 
     <!-- See retype.com -->
     <meta name="generator" content="Retype 3.11.0">
@@ -30,11 +30,11 @@
 
     <script data-cfasync="false">(function(){var cl=document.documentElement.classList,ls=localStorage.getItem("retype_scheme"),hd=cl.contains("dark"),hl=cl.contains("light"),wm=window.matchMedia&&window.matchMedia("(prefers-color-scheme: dark)").matches;if(ls==="dark"||(!ls&&wm&&!hd&&!hl)){cl.remove("light");cl.add("dark")}else if(ls==="light"||(!ls&&!wm&&!hd&&!hl)){cl.remove("dark");cl.add("light")}})();</script>
 
-    <link href="../../resources/css/retype.css?v=3.11.0.820558843892" rel="stylesheet">
+    <link href="../../resources/css/retype.css?v=3.11.0.820559484056" rel="stylesheet">
 
-    <script data-cfasync="false" src="../../resources/js/config.js?v=3.11.0.820558843892" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="../../resources/js/config.js?v=3.11.0.820559484056" data-turbo-eval="false" defer></script>
     <script data-cfasync="false" src="../../resources/js/retype.js?v=3.11.0" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" data-cfasync="false" src="../../resources/js/lunr.js?v=3.11.0.820558843892" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" data-cfasync="false" src="../../resources/js/lunr.js?v=3.11.0.820559484056" data-turbo-eval="false" defer></script>
 </head>
 <body>
     <div id="retype-app" class="relative text-base antialiased text-base-text bg-base-bg font-body">
@@ -683,56 +683,82 @@ read_lints</p>
 <tr>
 <th>Currency</th>
 <th>Effect</th>
+<th>Restrictions</th>
+<th>Use Case</th>
 </tr>
 </thead>
 <tbody>
 <tr>
+<td><strong>Orb of Quality</strong></td>
+<td>Increases Quality by 1 (max 20). Scales base stats only.</td>
+<td>Eligible items, Quality &lt; 20</td>
+<td>Improve base stats on good items</td>
+</tr>
+<tr>
 <td><strong>Orb of Transmutation</strong></td>
-<td>Normal → Magic (rolls up to Magic capacity)</td>
+<td>Normal → Uncommon or Magic (random). Grants 1-2 modifiers.</td>
+<td>Normal items only</td>
+<td>Upgrade white items to get modifiers</td>
 </tr>
 <tr>
 <td><strong>Orb of Alteration</strong></td>
-<td>Rerolls modifiers (within current rarity capacity)</td>
+<td>Rerolls all modifiers. Keeps same rarity.</td>
+<td>Uncommon or Magic only</td>
+<td>Reroll bad modifiers on Magic items</td>
 </tr>
 <tr>
 <td><strong>Orb of Augmentation</strong></td>
-<td>Adds 1 new modifier (if capacity allows)</td>
-</tr>
-<tr>
-<td><strong>Orb of Regal</strong></td>
-<td>Magic → Rare (+1 modifier)</td>
-</tr>
-<tr>
-<td><strong>Orb of Exalted</strong></td>
-<td>Adds 1 new modifier and may increase rarity tier (if rules allow)</td>
-</tr>
-<tr>
-<td><strong>Orb of Chaos</strong></td>
-<td>Rerolls a rare item&#x27;s modifiers</td>
-</tr>
-<tr>
-<td><strong>Divine Orb</strong></td>
-<td>Rerolls modifier values (keeps the same modifier IDs)</td>
-</tr>
-<tr>
-<td><strong>Orb of Annulment</strong></td>
-<td>Removes 1 modifier</td>
-</tr>
-<tr>
-<td><strong>Orb of Scouring</strong></td>
-<td>Removes all modifiers (and normalizes item state per rules)</td>
+<td>Adds 1 modifier to Magic item.</td>
+<td>Magic with 1 modifier only</td>
+<td>Add second modifier to Magic items</td>
 </tr>
 <tr>
 <td><strong>Orb of Chance</strong></td>
-<td>Random rarity outcome (rule-based)</td>
+<td>Normal → random tier (Uncommon → Legendary).</td>
+<td>Normal items only</td>
+<td>Gamble for high-tier items</td>
+</tr>
+<tr>
+<td><strong>Orb of Scouring</strong></td>
+<td>Removes all modifiers, resets to Normal.</td>
+<td>Any item</td>
+<td>Start fresh on bad items</td>
+</tr>
+<tr>
+<td><strong>Orb of Regal</strong></td>
+<td>Magic → Rare. Adds +1 modifier, keeps existing.</td>
+<td>Magic items only</td>
+<td>Upgrade to Rare without losing modifiers</td>
 </tr>
 <tr>
 <td><strong>Orb of Alchemy</strong></td>
-<td>Normal → Rare (rolls up to Rare capacity)</td>
+<td>Normal → Rare. Rolls up to 3 modifiers.</td>
+<td>Normal items only</td>
+<td>Fast path to Rare tier</td>
 </tr>
 <tr>
-<td><strong>Quality currency</strong></td>
-<td>Increases Quality up to the cap (0–20)</td>
+<td><strong>Orb of Chaos</strong></td>
+<td>Rerolls all modifiers and rarity. Can upgrade tier.</td>
+<td>Items with 3+ modifiers (Rare+)</td>
+<td>Reroll everything, chance to upgrade</td>
+</tr>
+<tr>
+<td><strong>Orb of Annulment</strong></td>
+<td>Removes 1 random modifier.</td>
+<td>Items with modifiers</td>
+<td>Remove bad modifiers before adding new ones</td>
+</tr>
+<tr>
+<td><strong>Orb of Exalted</strong></td>
+<td>Adds 1 modifier if capacity allows.</td>
+<td>Rare/Epic with open slots</td>
+<td>Fill remaining modifier slots</td>
+</tr>
+<tr>
+<td><strong>Divine Orb</strong></td>
+<td>Rerolls modifier values only. Keeps modifier types.</td>
+<td>Items with modifiers</td>
+<td>Improve values on good modifier types</td>
 </tr>
 </tbody>
 </table>
