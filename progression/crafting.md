@@ -166,12 +166,11 @@ Here are some examples of the modifiers available in the system:
 | **Recovery** | Health/Mana regen | Flat | `+3 health per second` |
 | **Leech** | Life/Mana leech | Percentage | `+5% life leech` |
 | **Attributes** | Intelligence/Dexterity/Strength | Flat | `+30 intelligence` |
+| **Attributes** | Intelligence/Dexterity/Strength | Percentage | `+10% strength` |
 
 !!!info More Modifiers Available
 This table shows a sample of available modifiers. The full system includes modifiers for all seven elements (energy, fire, ice, earth, holy, death, physical) across multiple categories. Modifier values scale with item tier/level.
 !!!
-<｜tool▁call▁begin｜>
-read_lints
 
 ---
 
