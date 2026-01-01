@@ -6,7 +6,7 @@ order: 110
 
 # Aincrad RPG Wiki
 
-Welcome to the official Aincrad RPG Wiki for version 1.1! This community-created resource aims to help new and existing players navigate the rich world of Aincrad.
+Welcome to the official Aincrad Tibia MMORPG Wiki! This community-created resource aims to help new and existing players navigate the rich world of Aincrad.
 
 ## What is Aincrad?
 
