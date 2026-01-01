@@ -14,22 +14,7 @@ Aincrad is a custom Tibia server based on protocol 13.21, featuring unique RPG e
 
 ### Is Aincrad free to play?
 
-Yes, Aincrad is completely free to download and play. The server is open to everyone and can be played online.
-
-### Is Aincrad pay-to-win?
-
-No, Aincrad refrains from pay-to-win (P2W) and pay-to-play (P2P) features. The game is fully playable without spending any money.
-
-We offer a **Premium subscription** that provides quality-of-life features such as:
-* Staying connected to trainers when closing the client
-* Access to our development server with early access to new features, systems, and balance changes
-* Ability to purchase houses with the option to add NPCs and a depot to your house
-
-The majority of our shop offerings are **cosmetic only**, ensuring that gameplay advantages cannot be purchased. Store credits can be earned through active participation and community contributions, making premium features accessible to all dedicated players.
-
-!!!info Global Server Boosts
-Typical "boosts" like experience and loot bonuses that you might see on other servers for individuals are applied instead **globally at the server level** and affect **all players equally**. These bonuses (such as 1-hour exp or loot boosts) are server-wide events, not individual purchases, ensuring fair gameplay for everyone.
-!!!
+Yes, Aincrad is completely free to download and play. The server is open to everyone and can be played online via our offical client.
 
 ### How do I download and install Aincrad?
 
