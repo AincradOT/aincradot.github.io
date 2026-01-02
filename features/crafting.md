@@ -161,8 +161,6 @@ Here are some examples of the modifiers available in the system:
 | **Defense** | Defense value | Percentage | `+10% defense` |
 | **Armor** | Armor value | Flat | `+8 armor` |
 | **Armor** | Armor value | Percentage | `+12% armor` |
-| **Hit Chance** | Hit chance | Flat | `+2 hit chance` |
-| **Hit Chance** | Hit chance | Percentage | `+5% hit chance` |
 | **Speed** | Movement speed | Flat | `+10 speed` |
 | **Speed** | Movement speed | Percentage | `+5% speed` |
 | **Skills** | Sword/Axe/Club/Distance/Shielding/Magic Level | Flat | `+3 sword fighting` |
