@@ -155,13 +155,23 @@ Here are some examples of the modifiers available in the system:
 |----------|----------|------|---------|
 | **Elemental Damage** | Fire/ice/energy/earth/holy/death/physical | Flat | `+10 fire attack damage` |
 | **Damage Increase** | Elemental damage boost | Percentage | `+15% fire damage` |
+| **Spell Damage** | Spell damage boost | Percentage | `+12% spell damage` |
 | **Resistance** | Elemental absorption | Percentage | `+20% fire absorb` |
-| **Resistance** | Elemental reduction | Flat | `+15 fire resistance` |
-| **Damage Over Time** | Elemental DoT | Flat | `+8 fire damage over time` |
+| **Defense** | Defense value | Flat | `+5 defense` |
+| **Defense** | Defense value | Percentage | `+10% defense` |
+| **Armor** | Armor value | Flat | `+8 armor` |
+| **Armor** | Armor value | Percentage | `+12% armor` |
+| **Hit Chance** | Hit chance | Flat | `+2 hit chance` |
+| **Hit Chance** | Hit chance | Percentage | `+5% hit chance` |
+| **Speed** | Movement speed | Flat | `+10 speed` |
+| **Speed** | Movement speed | Percentage | `+5% speed` |
+| **Skills** | Sword/Axe/Club/Distance/Shielding/Magic Level | Flat | `+3 sword fighting` |
+| **Skills** | Sword/Axe/Club/Distance/Shielding/Magic Level | Percentage | `+5% magic level` |
 | **Stats** | Health/Mana | Flat | `+50 max health` |
 | **Stats** | Health/Mana | Percentage | `+10% max mana` |
 | **Critical** | Critical chance | Flat | `+5% critical chance` |
 | **Critical** | Critical damage | Percentage | `+25% critical damage` |
+| **Double Damage** | Double damage chance | Percentage | `+3% double damage chance` |
 | **Recovery** | Health/Mana regen | Flat | `+3 health per second` |
 | **Leech** | Life/Mana leech | Percentage | `+5% life leech` |
 | **Attributes** | Intelligence/Dexterity/Strength | Flat | `+30 intelligence` |
