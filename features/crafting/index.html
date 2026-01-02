@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.11.0.820575852663">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.11.0.820627783955">
 
     <!-- See retype.com -->
     <meta name="generator" content="Retype 3.11.0">
@@ -30,11 +30,11 @@
 
     <script data-cfasync="false">(function(){var cl=document.documentElement.classList,ls=localStorage.getItem("retype_scheme"),hd=cl.contains("dark"),hl=cl.contains("light"),wm=window.matchMedia&&window.matchMedia("(prefers-color-scheme: dark)").matches;if(ls==="dark"||(!ls&&wm&&!hd&&!hl)){cl.remove("light");cl.add("dark")}else if(ls==="light"||(!ls&&!wm&&!hd&&!hl)){cl.remove("dark");cl.add("light")}})();</script>
 
-    <link href="../../resources/css/retype.css?v=3.11.0.820575852663" rel="stylesheet">
+    <link href="../../resources/css/retype.css?v=3.11.0.820627783955" rel="stylesheet">
 
-    <script data-cfasync="false" src="../../resources/js/config.js?v=3.11.0.820575852663" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="../../resources/js/config.js?v=3.11.0.820627783955" data-turbo-eval="false" defer></script>
     <script data-cfasync="false" src="../../resources/js/retype.js?v=3.11.0" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" data-cfasync="false" src="../../resources/js/lunr.js?v=3.11.0.820575852663" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" data-cfasync="false" src="../../resources/js/lunr.js?v=3.11.0.820627783955" data-turbo-eval="false" defer></script>
 </head>
 <body>
     <div id="retype-app" class="relative text-base antialiased text-base-text bg-base-bg font-body">
@@ -424,22 +424,76 @@
 <td><code v-pre>+15% fire damage</code></td>
 </tr>
 <tr>
+<td><strong>Spell Damage</strong></td>
+<td>Spell damage boost</td>
+<td>Percentage</td>
+<td><code v-pre>+12% spell damage</code></td>
+</tr>
+<tr>
 <td><strong>Resistance</strong></td>
 <td>Elemental absorption</td>
 <td>Percentage</td>
 <td><code v-pre>+20% fire absorb</code></td>
 </tr>
 <tr>
-<td><strong>Resistance</strong></td>
-<td>Elemental reduction</td>
+<td><strong>Defense</strong></td>
+<td>Defense value</td>
 <td>Flat</td>
-<td><code v-pre>+15 fire resistance</code></td>
+<td><code v-pre>+5 defense</code></td>
 </tr>
 <tr>
-<td><strong>Damage Over Time</strong></td>
-<td>Elemental DoT</td>
+<td><strong>Defense</strong></td>
+<td>Defense value</td>
+<td>Percentage</td>
+<td><code v-pre>+10% defense</code></td>
+</tr>
+<tr>
+<td><strong>Armor</strong></td>
+<td>Armor value</td>
 <td>Flat</td>
-<td><code v-pre>+8 fire damage over time</code></td>
+<td><code v-pre>+8 armor</code></td>
+</tr>
+<tr>
+<td><strong>Armor</strong></td>
+<td>Armor value</td>
+<td>Percentage</td>
+<td><code v-pre>+12% armor</code></td>
+</tr>
+<tr>
+<td><strong>Hit Chance</strong></td>
+<td>Hit chance</td>
+<td>Flat</td>
+<td><code v-pre>+2 hit chance</code></td>
+</tr>
+<tr>
+<td><strong>Hit Chance</strong></td>
+<td>Hit chance</td>
+<td>Percentage</td>
+<td><code v-pre>+5% hit chance</code></td>
+</tr>
+<tr>
+<td><strong>Speed</strong></td>
+<td>Movement speed</td>
+<td>Flat</td>
+<td><code v-pre>+10 speed</code></td>
+</tr>
+<tr>
+<td><strong>Speed</strong></td>
+<td>Movement speed</td>
+<td>Percentage</td>
+<td><code v-pre>+5% speed</code></td>
+</tr>
+<tr>
+<td><strong>Skills</strong></td>
+<td>Sword/Axe/Club/Distance/Shielding/Magic Level</td>
+<td>Flat</td>
+<td><code v-pre>+3 sword fighting</code></td>
+</tr>
+<tr>
+<td><strong>Skills</strong></td>
+<td>Sword/Axe/Club/Distance/Shielding/Magic Level</td>
+<td>Percentage</td>
+<td><code v-pre>+5% magic level</code></td>
 </tr>
 <tr>
 <td><strong>Stats</strong></td>
@@ -464,6 +518,12 @@
 <td>Critical damage</td>
 <td>Percentage</td>
 <td><code v-pre>+25% critical damage</code></td>
+</tr>
+<tr>
+<td><strong>Double Damage</strong></td>
+<td>Double damage chance</td>
+<td>Percentage</td>
+<td><code v-pre>+3% double damage chance</code></td>
 </tr>
 <tr>
 <td><strong>Recovery</strong></td>
