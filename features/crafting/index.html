@@ -3,10 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.11.0.822665865137">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.12.0.824834958632">
 
     <!-- See retype.com -->
-    <meta name="generator" content="Retype 3.11.0">
+    <meta name="generator" content="Retype 3.12.0">
 
     <!-- Primary Meta Tags -->
     <title>Item Quality, Rarity &amp; Modifiers Guide</title>
@@ -30,11 +30,12 @@
 
     <script data-cfasync="false">(function(){var cl=document.documentElement.classList,ls=localStorage.getItem("retype_scheme"),hd=cl.contains("dark"),hl=cl.contains("light"),wm=window.matchMedia&&window.matchMedia("(prefers-color-scheme: dark)").matches;if(ls==="dark"||(!ls&&wm&&!hd&&!hl)){cl.remove("light");cl.add("dark")}else if(ls==="light"||(!ls&&!wm&&!hd&&!hl)){cl.remove("dark");cl.add("light")}})();</script>
 
-    <link href="../../resources/css/retype.css?v=3.11.0.822665865137" rel="stylesheet">
+    <link id="retype-favicon" rel="icon" href="../../favicon.ico" />
+    <link href="../../resources/css/retype.css?v=3.12.0.824834958632" rel="stylesheet">
 
-    <script data-cfasync="false" src="../../resources/js/config.js?v=3.11.0.822665865137" data-turbo-eval="false" defer></script>
-    <script data-cfasync="false" src="../../resources/js/retype.js?v=3.11.0" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" data-cfasync="false" src="../../resources/js/lunr.js?v=3.11.0.822665865137" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="../../resources/js/config.js?v=3.12.0.824834958632" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="../../resources/js/retype.js?v=3.12.0" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" data-cfasync="false" src="../../resources/js/lunr.js?v=3.12.0.824834958632" data-turbo-eval="false" defer></script>
 </head>
 <body>
     <div id="retype-app" class="relative text-base antialiased text-base-text bg-base-bg font-body">
@@ -65,31 +66,6 @@
                         </ul>
                     </nav>
         
-                    <!-- Header Right Skeleton -->
-                    <div v-cloak class="flex justify-end grow skeleton">
-        
-                        <!-- Search input mock -->
-                        <div class="relative hidden w-40 lg:block lg:max-w-sm lg:ml-auto">
-                            <div class="absolute flex items-center justify-center h-full pl-3 dark:text-dark-300">
-                                <svg xmlns="http://www.w3.org/2000/svg" class="icon-base" width="16" height="16" viewBox="0 0 24 24" aria-labelledby="icon" role="presentation" style="margin-bottom: 1px;"><g fill="currentColor" ><path d="M21.71 20.29l-3.68-3.68A8.963 8.963 0 0020 11c0-4.96-4.04-9-9-9s-9 4.04-9 9 4.04 9 9 9c2.12 0 4.07-.74 5.61-1.97l3.68 3.68c.2.19.45.29.71.29s.51-.1.71-.29c.39-.39.39-1.03 0-1.42zM4 11c0-3.86 3.14-7 7-7s7 3.14 7 7c0 1.92-.78 3.66-2.04 4.93-.01.01-.02.01-.02.01-.01.01-.01.01-.01.02A6.98 6.98 0 0111 18c-3.86 0-7-3.14-7-7z" ></path></g></svg>
-                            </div>
-                            <input class="w-full h-10 placeholder-search-placeholder transition-colors duration-200 ease-in bg-search-bg border border-transparent rounded md:text-sm hover:border-search-border-hover focus:outline-none focus:border-search-border-focus" style="padding: 0.625rem 0.75rem 0.625rem 2rem" type="text" placeholder="Search">
-                        </div>
-        
-                        <!-- Mobile search button -->
-                        <div class="flex items-center justify-center w-10 h-10 lg:hidden">
-                            <svg xmlns="http://www.w3.org/2000/svg" class="shrink-0 icon-base" width="20" height="20" viewBox="0 0 24 24" aria-labelledby="icon" role="presentation" style="margin-bottom: 0px;"><g fill="currentColor" ><path d="M21.71 20.29l-3.68-3.68A8.963 8.963 0 0020 11c0-4.96-4.04-9-9-9s-9 4.04-9 9 4.04 9 9 9c2.12 0 4.07-.74 5.61-1.97l3.68 3.68c.2.19.45.29.71.29s.51-.1.71-.29c.39-.39.39-1.03 0-1.42zM4 11c0-3.86 3.14-7 7-7s7 3.14 7 7c0 1.92-.78 3.66-2.04 4.93-.01.01-.02.01-.02.01-.01.01-.01.01-.01.02A6.98 6.98 0 0111 18c-3.86 0-7-3.14-7-7z" ></path></g></svg>
-                        </div>
-        
-                        <!-- Dark mode switch placeholder -->
-                        <div class="w-10 h-10 lg:ml-2"></div>
-        
-                        <!-- History button -->
-                        <div class="flex items-center justify-center w-10 h-10" style="margin-right: -0.625rem;">
-                            <svg xmlns="http://www.w3.org/2000/svg" class="shrink-0 icon-base" width="22" height="22" viewBox="0 0 24 24" aria-labelledby="icon" role="presentation" style="margin-bottom: 0px;"><g fill="currentColor" ><g ><path d="M12.01 6.01c-.55 0-1 .45-1 1V12a1 1 0 00.4.8l3 2.22a.985.985 0 001.39-.2.996.996 0 00-.21-1.4l-2.6-1.92V7.01c.02-.55-.43-1-.98-1z"></path><path d="M12.01 1.91c-5.33 0-9.69 4.16-10.05 9.4l-.29-.26a.997.997 0 10-1.34 1.48l1.97 1.79c.19.17.43.26.67.26s.48-.09.67-.26l1.97-1.79a.997.997 0 10-1.34-1.48l-.31.28c.34-4.14 3.82-7.41 8.05-7.41 4.46 0 8.08 3.63 8.08 8.09s-3.63 8.08-8.08 8.08c-2.18 0-4.22-.85-5.75-2.4a.996.996 0 10-1.42 1.4 10.02 10.02 0 007.17 2.99c5.56 0 10.08-4.52 10.08-10.08.01-5.56-4.52-10.09-10.08-10.09z"></path></g></g></svg>
-                        </div>
-                    </div>
-        
                     <div v-cloak class="flex justify-end grow">
                         <div id="retype-mobile-search-button"></div>
                         <doc-search-desktop></doc-search-desktop>
@@ -107,7 +83,7 @@
             <div v-cloak class="fixed flex flex-col shrink-0 duration-300 ease-in-out bg-sidebar-left-bg border-sidebar-left-border sidebar top-20 w-75 border-r h-screen md:sticky transition-transform skeleton">
             
                 <div class="flex items-center h-16 px-6">
-                    <input class="w-full h-8 px-3 py-2 transition-colors duration-200 ease-linear bg-filter-bg border border-filter-border rounded shadow-none text-sm focus:outline-none focus:border-filter-border-focus" type="text" placeholder="Filter">
+                    <input id="retype-filter-input-mock" class="w-full h-10 pl-8 px-3 py-2 transition-colors duration-200 ease-linear bg-filter-bg border border-filter-border rounded-lg shadow-none md:text-sm hover:border-filter-border-hover focus:outline-none focus:border-filter-border-focus placeholder-filter-placeholder" type="text">
                 </div>
             
                 <div class="pl-6 mt-1 mb-4">
@@ -281,7 +257,7 @@
         </div>
     </div>
 </div>
-<p><strong>Example:</strong> Base <code v-pre>-5</code> with Quality 20% → <code v-pre>-4</code> (not <code v-pre>-6</code>)</p>
+<p><strong>Example:</strong> Base <code translate="no" v-pre>-5</code> with Quality 20% → <code translate="no" v-pre>-4</code> (not <code translate="no" v-pre>-6</code>)</p>
 <hr>
 <doc-anchor-target id="rarity-and-modifiers">
     <h2>
@@ -359,9 +335,9 @@
 <p>Add a fixed amount to stats.</p>
 <p><strong>Examples:</strong></p>
 <ul>
-<li><code v-pre>+10 fire attack damage</code></li>
-<li><code v-pre>+10 fire spell damage</code></li>
-<li><code v-pre>+25 max health</code></li>
+<li><code translate="no" v-pre>+10 fire attack damage</code></li>
+<li><code translate="no" v-pre>+10 fire spell damage</code></li>
+<li><code translate="no" v-pre>+25 max health</code></li>
 </ul>
 <doc-anchor-target id="percent-modifiers">
     <h3>
@@ -372,8 +348,8 @@
 <p>Scale an existing base value.</p>
 <p><strong>Examples:</strong></p>
 <ul>
-<li><code v-pre>+10% fire damage</code></li>
-<li><code v-pre>+12% physical damage</code></li>
+<li><code translate="no" v-pre>+10% fire damage</code></li>
+<li><code translate="no" v-pre>+12% physical damage</code></li>
 </ul>
 <div class="flex mb-6">
     <div class="shrink-0 w-1.5 rounded-tl-lg rounded-bl-lg bg-callout-info"></div>
@@ -415,127 +391,127 @@
 <td><strong>Elemental Damage</strong></td>
 <td>Fire/ice/energy/earth/holy/death/physical</td>
 <td>Flat</td>
-<td><code v-pre>+10 fire attack damage</code></td>
+<td><code translate="no" v-pre>+10 fire attack damage</code></td>
 </tr>
 <tr>
 <td><strong>Damage Increase</strong></td>
 <td>Elemental damage boost</td>
 <td>Percentage</td>
-<td><code v-pre>+15% fire damage</code></td>
+<td><code translate="no" v-pre>+15% fire damage</code></td>
 </tr>
 <tr>
 <td><strong>Spell Damage</strong></td>
 <td>Spell damage boost</td>
 <td>Percentage</td>
-<td><code v-pre>+12% spell damage</code></td>
+<td><code translate="no" v-pre>+12% spell damage</code></td>
 </tr>
 <tr>
 <td><strong>Resistance</strong></td>
 <td>Elemental absorption</td>
 <td>Percentage</td>
-<td><code v-pre>+20% fire absorb</code></td>
+<td><code translate="no" v-pre>+20% fire absorb</code></td>
 </tr>
 <tr>
 <td><strong>Defense</strong></td>
 <td>Defense value</td>
 <td>Flat</td>
-<td><code v-pre>+5 defense</code></td>
+<td><code translate="no" v-pre>+5 defense</code></td>
 </tr>
 <tr>
 <td><strong>Defense</strong></td>
 <td>Defense value</td>
 <td>Percentage</td>
-<td><code v-pre>+10% defense</code></td>
+<td><code translate="no" v-pre>+10% defense</code></td>
 </tr>
 <tr>
 <td><strong>Armor</strong></td>
 <td>Armor value</td>
 <td>Flat</td>
-<td><code v-pre>+8 armor</code></td>
+<td><code translate="no" v-pre>+8 armor</code></td>
 </tr>
 <tr>
 <td><strong>Armor</strong></td>
 <td>Armor value</td>
 <td>Percentage</td>
-<td><code v-pre>+12% armor</code></td>
+<td><code translate="no" v-pre>+12% armor</code></td>
 </tr>
 <tr>
 <td><strong>Speed</strong></td>
 <td>Movement speed</td>
 <td>Flat</td>
-<td><code v-pre>+10 speed</code></td>
+<td><code translate="no" v-pre>+10 speed</code></td>
 </tr>
 <tr>
 <td><strong>Speed</strong></td>
 <td>Movement speed</td>
 <td>Percentage</td>
-<td><code v-pre>+5% speed</code></td>
+<td><code translate="no" v-pre>+5% speed</code></td>
 </tr>
 <tr>
 <td><strong>Skills</strong></td>
 <td>Sword/Axe/Club/Distance/Shielding/Magic Level</td>
 <td>Flat</td>
-<td><code v-pre>+3 sword fighting</code></td>
+<td><code translate="no" v-pre>+3 sword fighting</code></td>
 </tr>
 <tr>
 <td><strong>Skills</strong></td>
 <td>Sword/Axe/Club/Distance/Shielding/Magic Level</td>
 <td>Percentage</td>
-<td><code v-pre>+5% magic level</code></td>
+<td><code translate="no" v-pre>+5% magic level</code></td>
 </tr>
 <tr>
 <td><strong>Stats</strong></td>
 <td>Health/Mana</td>
 <td>Flat</td>
-<td><code v-pre>+50 max health</code></td>
+<td><code translate="no" v-pre>+50 max health</code></td>
 </tr>
 <tr>
 <td><strong>Stats</strong></td>
 <td>Health/Mana</td>
 <td>Percentage</td>
-<td><code v-pre>+10% max mana</code></td>
+<td><code translate="no" v-pre>+10% max mana</code></td>
 </tr>
 <tr>
 <td><strong>Critical</strong></td>
 <td>Critical chance</td>
 <td>Flat</td>
-<td><code v-pre>+5% critical chance</code></td>
+<td><code translate="no" v-pre>+5% critical chance</code></td>
 </tr>
 <tr>
 <td><strong>Critical</strong></td>
 <td>Critical damage</td>
 <td>Percentage</td>
-<td><code v-pre>+25% critical damage</code></td>
+<td><code translate="no" v-pre>+25% critical damage</code></td>
 </tr>
 <tr>
 <td><strong>Double Damage</strong></td>
 <td>Double damage chance</td>
 <td>Percentage</td>
-<td><code v-pre>+3% double damage chance</code></td>
+<td><code translate="no" v-pre>+3% double damage chance</code></td>
 </tr>
 <tr>
 <td><strong>Recovery</strong></td>
 <td>Health/Mana regen</td>
 <td>Flat</td>
-<td><code v-pre>+3 health per second</code></td>
+<td><code translate="no" v-pre>+3 health per second</code></td>
 </tr>
 <tr>
 <td><strong>Leech</strong></td>
 <td>Life/Mana leech</td>
 <td>Percentage</td>
-<td><code v-pre>+5% life leech</code></td>
+<td><code translate="no" v-pre>+5% life leech</code></td>
 </tr>
 <tr>
 <td><strong>Attributes</strong></td>
 <td>Intelligence/Dexterity/Strength</td>
 <td>Flat</td>
-<td><code v-pre>+30 intelligence</code></td>
+<td><code translate="no" v-pre>+30 intelligence</code></td>
 </tr>
 <tr>
 <td><strong>Attributes</strong></td>
 <td>Intelligence/Dexterity/Strength</td>
 <td>Percentage</td>
-<td><code v-pre>+10% strength</code></td>
+<td><code translate="no" v-pre>+10% strength</code></td>
 </tr>
 </tbody>
 </table>
@@ -586,8 +562,8 @@
 </doc-anchor-target>
 <p>A <strong>Spell</strong> is something you cast:</p>
 <ul>
-<li><code v-pre>exori</code></li>
-<li><code v-pre>exori hur</code></li>
+<li><code translate="no" v-pre>exori</code></li>
+<li><code translate="no" v-pre>exori hur</code></li>
 <li>Rune-like spell effects (if treated as spells)</li>
 </ul>
 <hr>
@@ -610,7 +586,7 @@
 </ul>
 <p><strong>Example 1:</strong></p>
 <ul>
-<li><code v-pre>+10 fire attack damage</code> on a pure physical sword hit:
+<li><code translate="no" v-pre>+10 fire attack damage</code> on a pure physical sword hit:
 <ul>
 <li>Creates a <strong>fire component</strong> and adds <strong>+10 fire</strong> to it</li>
 </ul>
@@ -619,7 +595,7 @@
 <p><strong>Example 2:</strong></p>
 <ul>
 <li>A wand that normally deals <strong>energy</strong> (attack source)</li>
-<li>Add <code v-pre>+10 fire attack damage</code>
+<li>Add <code translate="no" v-pre>+10 fire attack damage</code>
 <ul>
 <li>The hit keeps its <strong>energy</strong> component</li>
 <li>And gains a new <strong>fire</strong> component (+10)</li>
@@ -633,7 +609,7 @@
     </h3>
 </doc-anchor-target>
 <ul>
-<li><code v-pre>+10% fire damage</code> applies to <strong>fire damage from attacks and spells</strong>.</li>
+<li><code translate="no" v-pre>+10% fire damage</code> applies to <strong>fire damage from attacks and spells</strong>.</li>
 </ul>
 <hr>
 <doc-anchor-target id="modifier-examples-fire">
@@ -645,7 +621,7 @@
 <doc-anchor-target id="10-fire-attack-damage">
     <h3>
         <doc-anchor-trigger class="header-anchor-trigger" to="#10-fire-attack-damage">#</doc-anchor-trigger>
-        <span><code v-pre>+10 fire attack damage</code></span>
+        <span><code translate="no" v-pre>+10 fire attack damage</code></span>
     </h3>
 </doc-anchor-target>
 <ul>
@@ -658,7 +634,7 @@
 <doc-anchor-target id="10-fire-spell-damage">
     <h3>
         <doc-anchor-trigger class="header-anchor-trigger" to="#10-fire-spell-damage">#</doc-anchor-trigger>
-        <span><code v-pre>+10 fire spell damage</code></span>
+        <span><code translate="no" v-pre>+10 fire spell damage</code></span>
     </h3>
 </doc-anchor-target>
 <ul>
@@ -666,12 +642,12 @@
 <li>Adds +10 to the spell&#x27;s <strong>fire</strong> component</li>
 <li>If the spell has no fire component, it <strong>creates one</strong></li>
 </ul>
-<p><strong>Example:</strong> <code v-pre>exori hur</code> that normally deals physical
+<p><strong>Example:</strong> <code translate="no" v-pre>exori hur</code> that normally deals physical
 <strong>Result:</strong> <strong>physical base</strong> + <strong>new fire component</strong></p>
 <doc-anchor-target id="10-fire-damage">
     <h3>
         <doc-anchor-trigger class="header-anchor-trigger" to="#10-fire-damage">#</doc-anchor-trigger>
-        <span><code v-pre>+10% fire damage</code></span>
+        <span><code translate="no" v-pre>+10% fire damage</code></span>
     </h3>
 </doc-anchor-target>
 <ul>
@@ -862,8 +838,8 @@
 </doc-anchor-target>
 <p><strong>Serpent Sword:</strong></p>
 <ul>
-<li>Base: <code v-pre>Atk:18 physical + 8 earth</code></li>
-<li>Quality 20 → <code v-pre>Atk:22 physical + 10 earth</code></li>
+<li>Base: <code translate="no" v-pre>Atk:18 physical + 8 earth</code></li>
+<li>Quality 20 → <code translate="no" v-pre>Atk:22 physical + 10 earth</code></li>
 </ul>
 <doc-anchor-target id="example-b-element-creation">
     <h3>
@@ -871,10 +847,10 @@
         <span>Example B: Element Creation</span>
     </h3>
 </doc-anchor-target>
-<p><strong>Physical sword hit with <code v-pre>+10 fire attack damage</code>:</strong></p>
+<p><strong>Physical sword hit with <code translate="no" v-pre>+10 fire attack damage</code>:</strong></p>
 <ul>
 <li>Physical remains</li>
-<li>Fire component is created: <code v-pre>+10 fire</code></li>
+<li>Fire component is created: <code translate="no" v-pre>+10 fire</code></li>
 </ul>
 <doc-anchor-target id="example-c-spell-vs-attack">
     <h3>
@@ -883,9 +859,9 @@
     </h3>
 </doc-anchor-target>
 <ul>
-<li><code v-pre>+10 fire spell damage</code> affects <code v-pre>exori</code> casts, not sword swings</li>
-<li><code v-pre>+10 fire attack damage</code> affects sword swings, not <code v-pre>exori</code></li>
-<li><code v-pre>+10% fire damage</code> affects both (any fire component)</li>
+<li><code translate="no" v-pre>+10 fire spell damage</code> affects <code translate="no" v-pre>exori</code> casts, not sword swings</li>
+<li><code translate="no" v-pre>+10 fire attack damage</code> affects sword swings, not <code translate="no" v-pre>exori</code></li>
+<li><code translate="no" v-pre>+10% fire damage</code> affects both (any fire component)</li>
 </ul>
 
                                 
@@ -924,7 +900,7 @@
                                     <ul class="flex flex-wrap items-center text-sm">
                                     </ul>
                                 </div>
-                                <div id="retype-copyright" class="print:justify-center py-2 text-footer-text font-footer-link-weight text-sm leading-relaxed"><p>© Copyright 2026. All rights reserved.</p></div>
+                                <div id="retype-copyright" class="print:justify-center py-2 text-footer-text font-footer-link text-sm leading-relaxed"><p>© Copyright 2026. All rights reserved.</p></div>
                             </footer>
                         </div>
                     </div>
