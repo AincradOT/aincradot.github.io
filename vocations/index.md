@@ -7,72 +7,69 @@ expanded: false
 
 # Vocations in Aincrad
 
-Aincrad uses a classic vocation system. Choose your vocation to define your character's role, abilities, and playstyle.
+Aincrad has three base vocations, each with two **ascendancy classes** (promotions) that unlock at level 20. Your vocation defines your combat role, stat growth, and playstyle.
 
 ## Vocation Basics
 
-Each vocation has unique strengths, weaknesses, and specializations. Your choice of vocation determines:
+Each vocation has unique strengths, weaknesses, and specializations. Your choice determines:
 
 * **Combat style** - Melee, ranged, or magic
 * **Spell arsenal** - Unique spells and abilities
 * **Stat progression** - How your character's attributes grow
 * **Equipment preferences** - Optimal gear for your playstyle
 
-## Available Vocations
+## Base Vocations
 
-| Vocation   | Role           | Primary Damage | Specialization                    |
-| ----------| -------------- | -------------- | ---------------------------------- |
-| **[Knight](knight.md)** | Tank/Melee DPS | Physical       | High HP, strong melee combat      |
-| **[Paladin](paladin.md)** | Ranged DPS     | Physical/Holy       | Balanced stats, versatile combat   |
-| **[Sorcerer](sorcerer.md)** | Magic DPS      | Energy/Fire    | High damage spells, area effects  |
-| **[Druid](druid.md)**  | Support/Healer | Ice/Earth      | Healing, support spells, utility   |
+| Vocation | Role | Primary Damage | Specialization |
+| --- | --- | --- | --- |
+| **[Wizard](wizard.md)** | Magic DPS | Spell | High mana, magic shield, powerful spells |
+| **[Archer](archer.md)** | Ranged DPS | Physical/Distance | Balanced HP/mana, versatile combat |
+| **[Duelist](duelist.md)** | Melee DPS | Physical | High HP, dual wield, aggressive combat |
+
+## Ascendancy Classes
+
+Each base vocation has two ascendancy paths to choose from. Ascendancy is unlocked as you progress:
+
+| Base Vocation | Ascendancy 1 | Ascendancy 2 |
+| --- | --- | --- |
+| Wizard | [Elementalist](wizard.md#elementalist) | [Priest](wizard.md#priest) |
+| Archer | [Zenbow](archer.md#zenbow) | [Sharpshooter](archer.md#sharpshooter) |
+| Duelist | [Berserker](duelist.md#berserker) | [Warden](duelist.md#warden) |
 
 !!!tip Vocation Selection
-Choose your vocation carefully when creating your character. While you can create multiple characters, each vocation offers a unique gameplay experience. Knights excel in close combat, Paladins are versatile ranged fighters, Sorcerers deal massive magic damage, and Druids provide essential support and healing.
+Choose your vocation carefully when creating your character. Each base vocation offers a unique gameplay experience — Wizards excel at high-damage spellcasting, Archers are versatile ranged fighters, and Duelists dominate close-quarters combat with dual-wielding.
 !!!
 
 ## Quick Overview
 
-### Knight
+### Wizard
 
-[!ref icon="shield" text="Knight Guide"](knight.md)
+[!ref icon="zap" text="Wizard Guide"](wizard.md)
 
-The frontline warrior specializing in melee combat with high health and strong physical attacks. Perfect for players who enjoy tanking and close-quarters combat.
+Magic user with the highest mana growth and a built-in magic shield. Promotes into **Elementalist** (elemental penetration, element swapping) or **Priest** (group heals, buffs, holy magic).
 
-### Paladin
+### Archer
 
-[!ref icon="arrow-right" text="Paladin Guide"](paladin.md)
+[!ref icon="arrow-right" text="Archer Guide"](archer.md)
 
-A balanced vocation that excels at ranged combat with both physical and magical capabilities. Ideal for versatile players who want flexibility.
+Ranged specialist with balanced HP and mana. Promotes into **Zenbow** (elemental arrow buffs, Zen Focus double-attack passive) or **Sharpshooter** (increased damage per tile distance from the target).
 
-### Sorcerer
+### Duelist
 
-[!ref icon="zap" text="Sorcerer Guide"](sorcerer.md)
+[!ref icon="shield" text="Duelist Guide"](duelist.md)
 
-A powerful magic user specializing in destructive spells and area-of-effect damage. Best for players who enjoy high damage output and spellcasting.
-
-### Druid
-
-[!ref icon="heart" text="Druid Guide"](druid.md)
-
-The support vocation specializing in healing, utility spells, and nature-based magic. Essential for players who enjoy supporting teammates.
+Aggressive melee fighter with the highest HP growth and native dual wield. Promotes into **Berserker** (rage, more damage and attack speed as HP drops, life leech) or **Warden** (shield-scaling damage, Bulwark stacks).
 
 ## Choosing Your Vocation
 
 You choose your vocation when creating your character. This is a permanent choice for that character, so consider:
 
-1. **Playstyle preference** - Do you prefer melee, ranged, or magic?
-2. **Role preference** - Do you want to tank, deal damage, or support?
-3. **Group composition** - What does your team need?
-
-## Level 20 Milestone
-
-Upon reaching level 20, you'll receive:
-* A **vocation-specific starter kit** containing item upgrades and a promotion
-* **Directions** to locate the first Warden
+1. **Playstyle preference** — Do you prefer melee, ranged, or magic?
+2. **Role preference** — Do you want to burst down enemies, sustain through fights, or support?
+3. **Group composition** — What does your team need?
 
 !!!danger First Warden
-The first Warden is a powerful enemy. Make sure you're well-equipped and consider forming a party before attempting to fight it. Preparation is key to success.
+The first Warden is a powerful enemy. Make sure you're well-equipped and consider forming a party before attempting to fight it.
 !!!
 
 !!!note Multiple Characters
@@ -80,8 +77,7 @@ You can create multiple characters with different vocations to experience all pl
 !!!
 
 :::content-center
-[!button variant="primary" icon="shield" text="Knight"](knight.md)
-[!button variant="success" icon="arrow-right" text="Paladin"](paladin.md)
-[!button variant="danger" icon="zap" text="Sorcerer"](sorcerer.md)
-[!button variant="info" icon="heart" text="Druid"](druid.md)
+[!button variant="danger" icon="zap" text="Wizard"](wizard.md)
+[!button variant="success" icon="arrow-right" text="Archer"](archer.md)
+[!button variant="primary" icon="shield" text="Duelist"](duelist.md)
 :::

@@ -19,7 +19,7 @@ Download the latest Aincrad launcher to get started:
 
 - [ ] [Download and install the Aincrad launcher](https://sword-art.online/download)
 - [ ] [Create a new account](https://sword-art.online/account/register)
-- [ ] Create your first character (choose your vocation: Knight, Paladin, Sorcerer, or Druid)
+- [ ] Create your first character (choose your vocation: Wizard, Archer, or Duelist)
 - [ ] Explore the first level and complete tutorial quests
 - [ ] Reach level 20 to receive your vocation-specific starter kit and directions to the first Warden
 
